@@ -15,6 +15,9 @@ import { ProgressBar } from './ProgressBar';
 import { QuestionList, QuestionListRef } from './QuestionList';
 import { ThemeToggle } from './ThemeToggle';
 
+const PAGE_SIZE_OPTIONS = [5, 8, 10, 15];
+const PAGE_SIZE_KEY = 'examtopics_page_size';
+
 const ExamPage: React.FC = () => {
   const { examId } = useParams<{ examId: string }>();
   const navigate = useNavigate();
@@ -25,6 +28,16 @@ const ExamPage: React.FC = () => {
   const [currentExam, setCurrentExam] = useState<Exam | null>(exam);
   const questionsHook = useQuestions(examId, currentExam?.file);
   const { questions, loading: questionsLoading, error: questionsError, loadQuestions } = questionsHook;
+
+  const [pageSize, setPageSize] = useState<number>(() => {
+      const saved = localStorage.getItem(PAGE_SIZE_KEY);
+      return saved ? parseInt(saved) : 10;
+    });
+
+    const handlePageSizeChange = (size: number) => {
+      setPageSize(size);
+      localStorage.setItem(PAGE_SIZE_KEY, String(size));
+    };
 
   const [urlTopicNumber, setUrlTopicNumber] = useState<number | null>(null);
   const [urlQuestionNumber, setUrlQuestionNumber] = useState<number | null>(null);
@@ -552,8 +565,8 @@ const ExamPage: React.FC = () => {
 
 
 
-        {/* FilterBar */}
-        <div className="mb-4">
+        {/* FilterBar + Page size selector */}
+        <div className="mb-4 flex flex-col gap-3">
           <FilterBar
             filterState={filterState}
             onFilterChange={handleFilterChange}
@@ -564,6 +577,27 @@ const ExamPage: React.FC = () => {
             questions={questions}
             onTopicChange={handleTopicChange}
           />
+          {/* Page size selector */}
+          <div className="flex items-center gap-3 bg-white dark:bg-gray-800 rounded-lg px-4 py-2 shadow-sm border border-gray-200 dark:border-gray-700">
+            <span className="text-sm text-gray-600 dark:text-gray-300 font-medium whitespace-nowrap">
+              Questions per page:
+            </span>
+            <div className="flex gap-2">
+              {[5, 8, 10, 15].map(size => (
+                <button
+                  key={size}
+                  onClick={() => handlePageSizeChange(size)}
+                  className={`px-3 py-1 rounded-lg text-sm font-medium border transition-colors
+                    ${pageSize === size
+                      ? 'bg-indigo-600 text-white border-indigo-600'
+                      : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30'
+                    }`}
+                >
+                  {size}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* QuestionList */}
@@ -578,6 +612,7 @@ const ExamPage: React.FC = () => {
             onAnswer={handleAnswer}
             onToggleTraining={toggleTrainingMark}
             examId={examId || ''}
+            pageSize={pageSize}
           />
         </div>
 
