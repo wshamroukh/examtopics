@@ -2,37 +2,36 @@ export function replaceImgPlaceholders(
   text: string,
   images: string[]
 ): string {
-  // Nếu không có placeholder thì trả về nguyên text
-  if (!text.includes("//IMG//") || images.length === 0) {
-    return text;
+  if (images.length === 0) {
+    return text.replace(/\n/g, "<br/>");
   }
-
-  let processedText = text;
 
   const toLocalThenRemoteImgTag = (url: string) => {
     try {
       const parsed = new URL(url);
-      if (parsed.hostname === 'img.examtopics.com' || parsed.hostname === 'www.examtopics.com') {
-        // Replace hostname with empty string, keep full path
+      if (
+        parsed.hostname === 'img.examtopics.com' ||
+        parsed.hostname === 'www.examtopics.com'
+      ) {
         const localSrc = parsed.pathname;
-        // Fallback to remote if local 404
         return `<img src="/img${localSrc}" onerror="this.onerror=null;this.src='${url}'" style="max-width:100%; height:auto; margin:10px 0;" />`;
       }
-    } catch (_) {
-      // ignore parsing errors and fall through to default
-    }
-    // Default: use provided URL directly
+    } catch (_) {}
     return `<img src="${url}" style="max-width:100%; height:auto; margin:10px 0;" />`;
   };
 
-  // Thay thế từng placeholder với hình ảnh tương ứng
-  images.forEach((url) => {
-    const imgTag = toLocalThenRemoteImgTag(url);
-    processedText = processedText.replace("//IMG//", imgTag);
-  });
+  let processedText = text;
 
-  // Replace \n with <br/> to display line breaks
-  processedText = processedText.replace(/\n/g, "<br/>");
+  if (text.includes("//IMG//")) {
+    // Has placeholders — replace them in order
+    images.forEach((url) => {
+      processedText = processedText.replace("//IMG//", toLocalThenRemoteImgTag(url));
+    });
+  } else {
+    // No placeholders — append all images at the end of the text
+    const imgTags = images.map(toLocalThenRemoteImgTag).join("\n");
+    processedText = processedText + "\n" + imgTags;
+  }
 
-  return processedText;
+  return processedText.replace(/\n/g, "<br/>");
 }
