@@ -196,120 +196,476 @@ What is likely causing this issue and how can it be corrected?
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 38 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 6 discussion
 
-When testing an Amazon Alexa skill using the Test page in the developer console, the JSON output is null.
-What is the MOST likely cause?
+An Alexa Skill Builder is trying to enable a skill in the developer console. The skill model builds without errors, but the Builder is unable to turn on testing.
+What could be causing this?
 
-**A:** The AWS Lambda function is encountering an error and is not returning a result.
+**A:** The skill's slot types are invalid.
 
-**B:** The endpoint ARN has not been configured
+**B:** The skill does not have an example phrase
 
-**C:** The ASK has not been granted access to trigger the AWS Lambda function
+**C:** The skill does not have an invocation name
 
-**D:** Skill ID verification has been disabled
+**D:** The skill does not have an endpoint
 
 
 
-**Answer: B**
+**Answer: C**
 
-**Timestamp: 2020-12-25 14:53:00**
+**Timestamp: 2020-12-10 16:03:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40762-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39544-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 39 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 7 discussion
 
-An Alexa Skill Builder is creating a skill that requires the user to authenticate by speaking a PIN before an order status can be retrieved.
-According to best practices, how should the PIN value be collected?
+An Alexa Skill Builder has published a skill to the Alexa Skills Store, but soon after realizes that Amazon Alexa is saying an incorrect word in one of the responses.
+What is the recommended method for the Builder to correct this issue?
 
-**A:** Use AMAZON.SearchQuery
+**A:** Correct the response in a new endpoint, and after updating the In Development version of the skill, redeploy it.
 
-**B:** Use AMAZON.FOUR_DIGIT_NUMBER
+**B:** Access the In Development version of the skill, alter the intent that was causing the incorrect word, then resubmit the skill for certification.
 
-**C:** Use multiple slots of type AMAZON.NUMBER
+**C:** Edit the response in a new endpoint, and after updating the In Development version of the skill, resubmit it for certification.
 
-**D:** Use a custom slot with zero to nine as values.
+**D:** Correct the response in the existing endpoint of the Live version of the skill, then redeploy it.
+
+
+
+**Answer: A**
+
+**Timestamp: 2020-10-31 18:47:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35545-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 8 discussion
+
+An Alexa Skill Builder needs to change the invocation name of a new skill.
+What status should the skill be in to make this change?
+
+**A:** In Development
+
+**B:** Build
+
+**C:** In Certification
+
+**D:** Edit
 
 
 
 **Answer: D**
 
-**Timestamp: 2020-10-31 21:15:00**
+**Timestamp: 2020-11-07 09:09:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35556-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 4 discussion
-
-An Alexa Skill Builder needs to set up an Amazon Alexa skill beta test.
-What user identifier should be used to add beta testers?
-
-**A:** AWS account number
-
-**B:** Alexa user email address
-
-**C:** Amazon vendor ID
-
-**D:** Amazon customer ID
-
-
-
-**Answer: B**
-
-**Timestamp: 2020-12-10 15:50:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39541-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36319-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 40 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 9 discussion
 
-An Alexa Skill Builder published a skill that streams sounds to help users relax. The skill is becoming very popular and is available in many different locales around the world. More than 20.000 users are using the skill every week, and more than 500 users are added daily. The sound files are stored in Amazon S3.
-What can the Builder do to ensure low latency and the best possible streaming performance?
+An Amazon Alexa interactive story skill needs to provide users with the option to resume the skill from where users left off when they last used the skill.
+Where should the data be stored to ensure that the skill will start at the correct location?
 
-**A:** Use Amazon CloudFront to deliver content and cache the audio files across different geographical regions.
+**A:** In a JSON file along with the skill's AWS Lambda function
 
-**B:** Migrate the sound files from Amazon S3 into Amazon Redshift to speed up the read operations.
+**B:** In Amazon DynamoDB
 
-**C:** Use Elastic Load Balancing to handle the traffic generated by the increasing number of users.
+**C:** In the skill's session object
 
-**D:** Enable cross-region replication on the Amazon S3 bucket policy to improve the skill's performance.
+**D:** In the skills's request object
 
 
 
-**Answer: D**
+**Answer: C**
 
-**Timestamp: 2020-10-31 21:16:00**
+**Timestamp: 2020-11-07 09:14:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35557-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36320-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 41 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 1 discussion
 
-An Alexa Skill Builder is using the AudioPlayer.Play directive and would like to automatically start the next audio track at the end of the current track.
-Which AudioPlayer playBehavior values will allow the Builder to achieve this without changing the audio currently playing? (Choose two.)
+An Alexa Skill Builder is developing a skill that tells users facts about their neighborhoods using their postal codes. When running the skill, users receive error messages from their Amazon Alexa devices. When the Builder checks the logs, error messages are being sent when the device location API is used to get users' postal codes.
+What are the potential causes of this issue? (Choose two.)
 
-**A:** REPLACE_ALL
+**A:** The Alexa devices are registered in the incorrect postal code.
 
-**B:** CLEAR_ENQUEUED
+**B:** The AWS Lambda function is not registered to the skill.
 
-**C:** REPLACE_ENQUEUED
+**C:** The users have opted out of giving their location information.
 
-**D:** ENQUEUE
+**D:** The application ID of the skill does not match the expected application ID of the AWS Lambda function.
 
-**E:** CLEAR_ALL
+**E:** The skill is not registered to access information in the developer console.
 
 
 
 **Answer: CD**
 
-**Timestamp: 2020-12-25 18:07:00**
+**Timestamp: 2020-12-25 18:32:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40765-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40767-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 1 discussion
+
+Which of the following are ways that a user can interact with an Amazon Alexa skill using both voice and non-voice methods? (Choose three.)
+
+**A:** Scrolling through a list
+
+**B:** Selecting an action
+
+**C:** Zooming in on an image
+
+**D:** Pausing a video
+
+**E:** Muting the device
+
+**F:** Pairing with Bluetooth
+
+
+
+**Answer: A**
+
+**Timestamp: 2020-12-15 02:09:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39875-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 10 discussion
+
+An Alexa Skill Builder is developing a custom skill and needs to verify that the correct slot values are being passed into the AWS Lambda function.
+According to best practices, what is the MOST efficient way to capture this information?
+
+**A:** Add a logging statement to write the event request to Amazon CloudWatch Logs.
+
+**B:** Add an API call to write the environment variables to an Amazon S3 bucket when the function is invoked.
+
+**C:** Add an API call to read the event information from AWS Cloud Trail logs and add a PutObject API call to write to an Amazon S3 bucket.
+
+**D:** Add a statement to parse the JSON request and save to the local disk for the Lambda function
+
+
+
+**Answer: D**
+
+**Timestamp: 2020-11-07 10:33:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36341-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 11 discussion
+
+An Alexa Skill Builder submitted a child-directed skill for certification that lists the nearest skateboard parks. The Builder ensured that
+✑ The skill does not link to an external account
+✑ The skill stored the child's preference by userId
+✑ The skill has a valid privacy policy link in the skill Distribution page
+Given this information, why will the skill fail certification?
+
+**A:** The Builder did not upload a privacy policy document
+
+**B:** Child-directed skills cannot use location information
+
+**C:** The child's userId cannot be used because of Personally Identifiable Information (PII) restrictions.
+
+**D:** The skill should not be child-directed as it can be used by children over 13 years old.
+
+
+
+**Answer: C**
+
+**Timestamp: 2020-11-07 10:40:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36346-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 12 discussion
+
+The namespace value in the header of the incoming directive for an Amazon Alexa smart home skill specifies the:
+
+**A:** context of the message
+
+**B:** capability interface of the message
+
+**C:** endpoint specified in the message
+
+**D:** control message for the directive
+
+
+
+**Answer: D**
+
+**Timestamp: 2020-12-23 03:57:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40626-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 13 discussion
+
+According to Amazon Alexa best practices, how should an Alexa Skill Builder prevent unintentional requests against a skill's backend when using AWS Lambda?
+
+**A:** Ensure that the session ID provided by the request to Lambda is not already in use.
+
+**B:** Rotate the Lambda ARN regularly to prevent others from using the service.
+
+**C:** Retrieve the Application ID property from the request JSON and validate it against the Lambda environment variables.
+
+**D:** Provide the Lambda trigger with the Application ID so that it validates on the ask trigger.
+
+
+
+**Answer: C**
+
+**Timestamp: 2020-11-07 12:15:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36362-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 42 discussion
+
+An Alexa Builder is working on a skill for music streaming. When a user says, "Alexa, stop" the skill needs to know where the user was in the song, so that when returning to the skill in a new session, the song can pick up where it left off.
+Which section of the following JSON contains the data indicating where the song left off?
+//IMG//
+
+https://www.examtopics.com/assets/media/exam-media/03310/0003400001.png
+
+**A:** session.attributes
+
+**B:** Context.AudioPlayer
+
+**C:** session.user
+
+**D:** context.System.device.supportedInterfaces.AudioPlayer
+
+
+
+**Answer: C**
+
+**Timestamp: 2020-12-15 04:51:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39882-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 43 discussion
+
+An Alexa Skill Builder implemented the built-in intent AMAZON.HelpIntent. In some cases, users are asking for help using phrases that are specific to a skill's terminology. Amazon Alexa does not understand these phrases are help requests, and they are not being routed to AMAZON.HelpIntent.
+According to best practices, how can this situation be corrected?
+
+**A:** Create custom intents using the help utterances that are specific to the skill, and remove AMAZON.HelpIntent.
+
+**B:** Use AMAZON.FallbackIntent to capture spoken phrases that do not match AMAZON.HelpIntent, then determine if the user needs help.
+
+**C:** Define custom slots for AMAZON.HelpIntent to capture the additional details in the users' help requests
+
+**D:** Extend the standard built-in AMAZON.HelpIntent using additional samples in the skill's interaction model
+
+
+
+**Answer: D**
+
+**Timestamp: 2020-12-25 18:15:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40766-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 44 discussion
+
+An Alexa Skill Builder is developing a skill using AWS Lambda. The Builder made some backend code changes, then tested the skill on an Amazon Echo device.
+When invoking the skill, Amazon Alexa replies with "There was a problem with the requested skill's response".
+How can the Builder troubleshoot this problem?
+
+**A:** Use Amazon CloudWatch to check the most recent execution log and see if an error is present.
+
+**B:** Use Amazon DynamoDB and export a copy of the log database, then search for error messages.
+
+**C:** Use the developer console to rebuild the model, then invoke the skill again with the invocation name.
+
+**D:** Use the developer console to add AMAZON.LaunchRequest to the interaction model, rebuild the model, then invoke the skill again.
+
+
+
+**Answer: D**
+
+**Timestamp: 2020-10-31 21:26:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35558-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 45 discussion
+
+While developing a skill, an Alexa Skill Builder finds that the voice response is too quick and needs to be slowed down.
+How can the Builder MOST efficiently iterate and test how the response will sound?
+
+**A:** Make changes in the skill code, deploy it, and test it on the device.
+
+**B:** Modify the SSML in the skill, save it, and check Amazon CloudWatch for errors.
+
+**C:** Edit the SSML in the skill and use the Alexa Simulator tab on the Test page of the developer console.
+
+**D:** Use the Voice & Tone tab on the Test page in the developer console.
+
+
+
+**Answer: A**
+
+**Timestamp: 2020-10-31 21:32:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35559-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 5 discussion
+
+An Alexa Skill Builder is developing a custom skill to play a live audio stream.
+What two built-in intents are required to implement the AudioPlayer interface?
+
+**A:** AMAZON.NextIntent and AMAZON.StopIntent
+
+**B:** AMAZON.ResumeIntent and AMAZON.PauseIntent
+
+**C:** AMAZON.CancelIntent and AMAZON.ResumeIntent
+
+**D:** AMAZON.RepeatIntent and AMAZON.StopIntent
+
+
+
+**Answer: B**
+
+**Timestamp: 2020-12-04 23:44:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/38848-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 10 discussion
+
+AMAZON.MoreIntent is comparable to which of the following Amazon Alexa intents? (Choose two.)
+
+**A:** AMAZON.ResumeIntent
+
+**B:** AMAZON.ScrollDownIntent
+
+**C:** AMAZON.RepeatIntent
+
+**D:** AMAZON.ScrollRightIntent
+
+**E:** AMAZON.LoopOnIntent
+
+
+
+**Answer: BD**
+
+**Timestamp: 2020-12-13 07:03:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39728-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 11 discussion
+
+An Alexa Skill Builder is developing a complex skill to help users purchase items. The Builder has implemented the default AMAZON.HelpIntent, but when users ask for help they always reach the same unhelpful result.
+How should the Builder enhance the experience to guide the users toward the end goal?
+
+**A:** Check the state of the user conversation when AMAZON.HelpIntent is received to give contextual responses.
+
+**B:** Implement AMAZON.FallbackIntent to give a response when an utterance is not understood.
+
+**C:** Extend the default AMAZON.HelpIntent with more sample utterances.
+
+**D:** Implement a custom intent users can request when they need help.
+
+
+
+**Answer: A**
+
+**Timestamp: 2020-12-13 06:52:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39726-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 12 discussion
+
+An Alexa Skill Builder noticed that a large percentage of a food ordering skill's customers are not completing their transactions. The Builder needs to know what portion of the customers are leaving the skill by not responding, compared to the portion of customers who receive an error.
+Which report inside the Analytics section of the developer console will provide this information?
+
+**A:** Session Type Distribution
+
+**B:** Unique Customers Per Intent
+
+**C:** Average Session Per Customer
+
+**D:** Failed Utterances Per Intent
+
+
+
+**Answer: C**
+
+**Timestamp: 2020-12-13 06:49:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39725-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 13 discussion
+
+An Alexa Skill Builder is designing a skill with an intent that needs six slots to be filled. It is unlikely that a user will provide all the slot values in a single utterance, so the slot fulfillment should be split up into a multi-turn conversation.
+What can the Builder do in the developer console to have Amazon Alexa elicit any missing slots, without specifying each of the slots in the backend code?
+
+**A:** Keep track of what slots are filled in session attributes, and in the backend code, prompt the user for the missing slots using Dialog.ElicitSlot.
+
+**B:** Mark those six slots are required, fill in the necessary prompts, and in the backend code, use the Dialog.Delegate directive until all slots are filled.
+
+**C:** Mark those six slots are required, fill in the necessary prompts, and in the backend code, use the Dialog.ConfirmSlot directive until all slots are filled
+
+**D:** Mark those six slots are required, fill in the necessary prompts, and in the backend code, use the Dialog.ElicitSlot directive until all slots are filled.
+
+
+
+**Answer: B**
+
+**Timestamp: 2020-12-13 06:30:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39724-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 14 discussion
+
+An Alexa Skill Builder published a skill and now wants to update it.
+Which of the following changes will make it necessary to have the skill re-certified? (Choose two.)
+
+**A:** Adding a new intent in the interaction model
+
+**B:** Changing the text of a skill response
+
+**C:** Adding a sentence to the skill description
+
+**D:** Changing the URL of the image on a skill card
+
+**E:** Updating the backend to point to a new database
+
+
+
+**Answer: DE**
+
+**Timestamp: 2020-12-13 06:25:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39723-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
 
 ----------------------------------------
 
@@ -440,592 +796,235 @@ Which of the following occur when a beta test of a live skill times out? (Choose
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 10 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 14 discussion
 
-AMAZON.MoreIntent is comparable to which of the following Amazon Alexa intents? (Choose two.)
+An Alexa Skill Builder would like to improve a skill's help experience. To do this, the Builder plans to leverage the user's activity leading up to the help request to contextualize the help response.
+Where should the skill obtain the necessary context?
 
-**A:** AMAZON.ResumeIntent
+**A:** Load the user's recent activity from the Intent Request History API, then use this to provide context to the AMAZON.HelpIntent request.
 
-**B:** AMAZON.ScrollDownIntent
+**B:** Retrieve the recent activity from the context object passed with the AMAZON.HelpIntent request.
 
-**C:** AMAZON.RepeatIntent
+**C:** Use a session attribute to store the intent name for each request, then use this to provide context to the AMAZON.HelpIntent request.
 
-**D:** AMAZON.ScrollRightIntent
-
-**E:** AMAZON.LoopOnIntent
-
-
-
-**Answer: BD**
-
-**Timestamp: 2020-12-13 07:03:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39728-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 11 discussion
-
-An Alexa Skill Builder is developing a complex skill to help users purchase items. The Builder has implemented the default AMAZON.HelpIntent, but when users ask for help they always reach the same unhelpful result.
-How should the Builder enhance the experience to guide the users toward the end goal?
-
-**A:** Check the state of the user conversation when AMAZON.HelpIntent is received to give contextual responses.
-
-**B:** Implement AMAZON.FallbackIntent to give a response when an utterance is not understood.
-
-**C:** Extend the default AMAZON.HelpIntent with more sample utterances.
-
-**D:** Implement a custom intent users can request when they need help.
+**D:** Retrieve the recent activity from the slot values passed with the AMAZON.HelpIntent request.
 
 
 
-**Answer: A**
+**Answer: D**
 
-**Timestamp: 2020-12-13 06:52:00**
+**Timestamp: 2020-11-07 13:53:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39726-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36372-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 12 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 15 discussion
 
-An Alexa Skill Builder noticed that a large percentage of a food ordering skill's customers are not completing their transactions. The Builder needs to know what portion of the customers are leaving the skill by not responding, compared to the portion of customers who receive an error.
-Which report inside the Analytics section of the developer console will provide this information?
+An Alexa Skill Builder adds a colleague to a skill using the beta test feature. The colleague logs in to the developer console to edit the interaction model and cannot see the skill.
+Why is this happening?
 
-**A:** Session Type Distribution
+**A:** The colleague needs the ROLE_ADMINISTRATOR enablement.
 
-**B:** Unique Customers Per Intent
+**B:** The skill was not submitted for publishing.
 
-**C:** Average Session Per Customer
+**C:** The colleague was not made an administrator in the beta test tool.
 
-**D:** Failed Utterances Per Intent
+**D:** The colleague has not been added to the skill's developer account.
 
 
 
 **Answer: C**
 
-**Timestamp: 2020-12-13 06:49:00**
+**Timestamp: 2020-11-07 14:24:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39725-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36374-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 13 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 16 discussion
 
-An Alexa Skill Builder is designing a skill with an intent that needs six slots to be filled. It is unlikely that a user will provide all the slot values in a single utterance, so the slot fulfillment should be split up into a multi-turn conversation.
-What can the Builder do in the developer console to have Amazon Alexa elicit any missing slots, without specifying each of the slots in the backend code?
+An Amazon Alexa skill fetches data for users from a third-party API and the wait for the response from that call is variable, often taking up to 5 seconds.
+What is the recommended method for notifying users that a skill is working on the request and has not failed to respond?
 
-**A:** Keep track of what slots are filled in session attributes, and in the backend code, prompt the user for the missing slots using Dialog.ElicitSlot.
+**A:** Prefetch the data that is expected to the required by the skill from the third-party API using Amazon CloudWatch Events.
 
-**B:** Mark those six slots are required, fill in the necessary prompts, and in the backend code, use the Dialog.Delegate directive until all slots are filled.
+**B:** Call the Progressive Response API and send a directive, such as VoicePlayer.Speak
 
-**C:** Mark those six slots are required, fill in the necessary prompts, and in the backend code, use the Dialog.ConfirmSlot directive until all slots are filled
+**C:** Ask a follow-up question for clarification to engage the user while waiting for the initially requested response.
 
-**D:** Mark those six slots are required, fill in the necessary prompts, and in the backend code, use the Dialog.ElicitSlot directive until all slots are filled.
+**D:** Respond to the user stating that the data will be ready soon, and upon the next launch of the skill, provide the user with the response they initially requested.
 
 
 
 **Answer: B**
 
-**Timestamp: 2020-12-13 06:30:00**
+**Timestamp: 2020-12-25 14:18:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39724-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 14 discussion
-
-An Alexa Skill Builder published a skill and now wants to update it.
-Which of the following changes will make it necessary to have the skill re-certified? (Choose two.)
-
-**A:** Adding a new intent in the interaction model
-
-**B:** Changing the text of a skill response
-
-**C:** Adding a sentence to the skill description
-
-**D:** Changing the URL of the image on a skill card
-
-**E:** Updating the backend to point to a new database
-
-
-
-**Answer: DE**
-
-**Timestamp: 2020-12-13 06:25:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39723-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40750-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 1 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 17 discussion
 
-Which of the following are ways that a user can interact with an Amazon Alexa skill using both voice and non-voice methods? (Choose three.)
+An Alexa Skill Builder has created a custom skill about basketball including a HowToPlayBasketball intent. When looking at the Intent History page in the developer console, the Builder sees that a number of users are asking the skill how to play baseball. The Builder wants to add a relevant response directing the user back to the topic of basketball.
+How should the Builder implement this?
 
-**A:** Scrolling through a list
+**A:** Add AMAZON.FallbackIntent and respond with a message about baseball in the handler
 
-**B:** Selecting an action
+**B:** Create a custom intent related to baseball, and when matched, provide a relevant response
 
-**C:** Zooming in on an image
+**C:** Add more sample utterances related to baseball in the HowToPlayBasketball intent
 
-**D:** Pausing a video
-
-**E:** Muting the device
-
-**F:** Pairing with Bluetooth
+**D:** Create a new custom baseball slot and add a slot-filling utterance to the HowToPlayBasketball intent.
 
 
 
 **Answer: A**
 
-**Timestamp: 2020-12-15 02:09:00**
+**Timestamp: 2021-01-25 14:40:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39875-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 10 discussion
-
-An Alexa Skill Builder is developing a custom skill and needs to verify that the correct slot values are being passed into the AWS Lambda function.
-According to best practices, what is the MOST efficient way to capture this information?
-
-**A:** Add a logging statement to write the event request to Amazon CloudWatch Logs.
-
-**B:** Add an API call to write the environment variables to an Amazon S3 bucket when the function is invoked.
-
-**C:** Add an API call to read the event information from AWS Cloud Trail logs and add a PutObject API call to write to an Amazon S3 bucket.
-
-**D:** Add a statement to parse the JSON request and save to the local disk for the Lambda function
-
-
-
-**Answer: D**
-
-**Timestamp: 2020-11-07 10:33:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36341-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/43246-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 11 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 18 discussion
 
-An Alexa Skill Builder submitted a child-directed skill for certification that lists the nearest skateboard parks. The Builder ensured that
-✑ The skill does not link to an external account
-✑ The skill stored the child's preference by userId
-✑ The skill has a valid privacy policy link in the skill Distribution page
-Given this information, why will the skill fail certification?
+An Alexa Skill Builder is using session attributes to maintain a user's state.
+What can the Builder do to ensure that a user's session is not lost if they take too long to answer a question and the skill exists?
 
-**A:** The Builder did not upload a privacy policy document
+**A:** Set shouldEndSession to false in the response object to prevent the skill from exiting.
 
-**B:** Child-directed skills cannot use location information
+**B:** Handle the SessionEndedRequest request type and persist the user's session to a database.
 
-**C:** The child's userId cannot be used because of Personally Identifiable Information (PII) restrictions.
+**C:** Return false from the SessionEndedRequest handler so the session does not exist.
 
-**D:** The skill should not be child-directed as it can be used by children over 13 years old.
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-11-07 10:40:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36346-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 12 discussion
-
-The namespace value in the header of the incoming directive for an Amazon Alexa smart home skill specifies the:
-
-**A:** context of the message
-
-**B:** capability interface of the message
-
-**C:** endpoint specified in the message
-
-**D:** control message for the directive
-
-
-
-**Answer: D**
-
-**Timestamp: 2020-12-23 03:57:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40626-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 13 discussion
-
-According to Amazon Alexa best practices, how should an Alexa Skill Builder prevent unintentional requests against a skill's backend when using AWS Lambda?
-
-**A:** Ensure that the session ID provided by the request to Lambda is not already in use.
-
-**B:** Rotate the Lambda ARN regularly to prevent others from using the service.
-
-**C:** Retrieve the Application ID property from the request JSON and validate it against the Lambda environment variables.
-
-**D:** Provide the Lambda trigger with the Application ID so that it validates on the ask trigger.
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-11-07 12:15:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36362-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 6 discussion
-
-An Alexa Skill Builder is trying to enable a skill in the developer console. The skill model builds without errors, but the Builder is unable to turn on testing.
-What could be causing this?
-
-**A:** The skill's slot types are invalid.
-
-**B:** The skill does not have an example phrase
-
-**C:** The skill does not have an invocation name
-
-**D:** The skill does not have an endpoint
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-12-10 16:03:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39544-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 7 discussion
-
-An Alexa Skill Builder has published a skill to the Alexa Skills Store, but soon after realizes that Amazon Alexa is saying an incorrect word in one of the responses.
-What is the recommended method for the Builder to correct this issue?
-
-**A:** Correct the response in a new endpoint, and after updating the In Development version of the skill, redeploy it.
-
-**B:** Access the In Development version of the skill, alter the intent that was causing the incorrect word, then resubmit the skill for certification.
-
-**C:** Edit the response in a new endpoint, and after updating the In Development version of the skill, resubmit it for certification.
-
-**D:** Correct the response in the existing endpoint of the Live version of the skill, then redeploy it.
+**D:** Return a reprompt in the response object from the SessionEndedRequest handler.
 
 
 
 **Answer: A**
 
-**Timestamp: 2020-10-31 18:47:00**
+**Timestamp: 2020-12-06 00:00:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35545-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/38952-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 8 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 38 discussion
 
-An Alexa Skill Builder needs to change the invocation name of a new skill.
-What status should the skill be in to make this change?
+When testing an Amazon Alexa skill using the Test page in the developer console, the JSON output is null.
+What is the MOST likely cause?
 
-**A:** In Development
+**A:** The AWS Lambda function is encountering an error and is not returning a result.
 
-**B:** Build
+**B:** The endpoint ARN has not been configured
 
-**C:** In Certification
+**C:** The ASK has not been granted access to trigger the AWS Lambda function
 
-**D:** Edit
+**D:** Skill ID verification has been disabled
+
+
+
+**Answer: B**
+
+**Timestamp: 2020-12-25 14:53:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40762-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 39 discussion
+
+An Alexa Skill Builder is creating a skill that requires the user to authenticate by speaking a PIN before an order status can be retrieved.
+According to best practices, how should the PIN value be collected?
+
+**A:** Use AMAZON.SearchQuery
+
+**B:** Use AMAZON.FOUR_DIGIT_NUMBER
+
+**C:** Use multiple slots of type AMAZON.NUMBER
+
+**D:** Use a custom slot with zero to nine as values.
 
 
 
 **Answer: D**
 
-**Timestamp: 2020-11-07 09:09:00**
+**Timestamp: 2020-10-31 21:15:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36319-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 9 discussion
-
-An Amazon Alexa interactive story skill needs to provide users with the option to resume the skill from where users left off when they last used the skill.
-Where should the data be stored to ensure that the skill will start at the correct location?
-
-**A:** In a JSON file along with the skill's AWS Lambda function
-
-**B:** In Amazon DynamoDB
-
-**C:** In the skill's session object
-
-**D:** In the skills's request object
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-11-07 09:14:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36320-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35556-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 2 question 1 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 4 discussion
 
-An Alexa Skill Builder is developing a skill that tells users facts about their neighborhoods using their postal codes. When running the skill, users receive error messages from their Amazon Alexa devices. When the Builder checks the logs, error messages are being sent when the device location API is used to get users' postal codes.
-What are the potential causes of this issue? (Choose two.)
+An Alexa Skill Builder needs to set up an Amazon Alexa skill beta test.
+What user identifier should be used to add beta testers?
 
-**A:** The Alexa devices are registered in the incorrect postal code.
+**A:** AWS account number
 
-**B:** The AWS Lambda function is not registered to the skill.
+**B:** Alexa user email address
 
-**C:** The users have opted out of giving their location information.
+**C:** Amazon vendor ID
 
-**D:** The application ID of the skill does not match the expected application ID of the AWS Lambda function.
+**D:** Amazon customer ID
 
-**E:** The skill is not registered to access information in the developer console.
+
+
+**Answer: B**
+
+**Timestamp: 2020-12-10 15:50:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39541-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 40 discussion
+
+An Alexa Skill Builder published a skill that streams sounds to help users relax. The skill is becoming very popular and is available in many different locales around the world. More than 20.000 users are using the skill every week, and more than 500 users are added daily. The sound files are stored in Amazon S3.
+What can the Builder do to ensure low latency and the best possible streaming performance?
+
+**A:** Use Amazon CloudFront to deliver content and cache the audio files across different geographical regions.
+
+**B:** Migrate the sound files from Amazon S3 into Amazon Redshift to speed up the read operations.
+
+**C:** Use Elastic Load Balancing to handle the traffic generated by the increasing number of users.
+
+**D:** Enable cross-region replication on the Amazon S3 bucket policy to improve the skill's performance.
+
+
+
+**Answer: D**
+
+**Timestamp: 2020-10-31 21:16:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35557-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 41 discussion
+
+An Alexa Skill Builder is using the AudioPlayer.Play directive and would like to automatically start the next audio track at the end of the current track.
+Which AudioPlayer playBehavior values will allow the Builder to achieve this without changing the audio currently playing? (Choose two.)
+
+**A:** REPLACE_ALL
+
+**B:** CLEAR_ENQUEUED
+
+**C:** REPLACE_ENQUEUED
+
+**D:** ENQUEUE
+
+**E:** CLEAR_ALL
 
 
 
 **Answer: CD**
 
-**Timestamp: 2020-12-25 18:32:00**
+**Timestamp: 2020-12-25 18:07:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40767-exam-aws-certified-alexa-skill-builder-specialty-topic-2/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 42 discussion
-
-An Alexa Builder is working on a skill for music streaming. When a user says, "Alexa, stop" the skill needs to know where the user was in the song, so that when returning to the skill in a new session, the song can pick up where it left off.
-Which section of the following JSON contains the data indicating where the song left off?
-//IMG//
-
-https://www.examtopics.com/assets/media/exam-media/03310/0003400001.png
-
-**A:** session.attributes
-
-**B:** Context.AudioPlayer
-
-**C:** session.user
-
-**D:** context.System.device.supportedInterfaces.AudioPlayer
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-12-15 04:51:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39882-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 43 discussion
-
-An Alexa Skill Builder implemented the built-in intent AMAZON.HelpIntent. In some cases, users are asking for help using phrases that are specific to a skill's terminology. Amazon Alexa does not understand these phrases are help requests, and they are not being routed to AMAZON.HelpIntent.
-According to best practices, how can this situation be corrected?
-
-**A:** Create custom intents using the help utterances that are specific to the skill, and remove AMAZON.HelpIntent.
-
-**B:** Use AMAZON.FallbackIntent to capture spoken phrases that do not match AMAZON.HelpIntent, then determine if the user needs help.
-
-**C:** Define custom slots for AMAZON.HelpIntent to capture the additional details in the users' help requests
-
-**D:** Extend the standard built-in AMAZON.HelpIntent using additional samples in the skill's interaction model
-
-
-
-**Answer: D**
-
-**Timestamp: 2020-12-25 18:15:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40766-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 44 discussion
-
-An Alexa Skill Builder is developing a skill using AWS Lambda. The Builder made some backend code changes, then tested the skill on an Amazon Echo device.
-When invoking the skill, Amazon Alexa replies with "There was a problem with the requested skill's response".
-How can the Builder troubleshoot this problem?
-
-**A:** Use Amazon CloudWatch to check the most recent execution log and see if an error is present.
-
-**B:** Use Amazon DynamoDB and export a copy of the log database, then search for error messages.
-
-**C:** Use the developer console to rebuild the model, then invoke the skill again with the invocation name.
-
-**D:** Use the developer console to add AMAZON.LaunchRequest to the interaction model, rebuild the model, then invoke the skill again.
-
-
-
-**Answer: D**
-
-**Timestamp: 2020-10-31 21:26:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35558-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 45 discussion
-
-While developing a skill, an Alexa Skill Builder finds that the voice response is too quick and needs to be slowed down.
-How can the Builder MOST efficiently iterate and test how the response will sound?
-
-**A:** Make changes in the skill code, deploy it, and test it on the device.
-
-**B:** Modify the SSML in the skill, save it, and check Amazon CloudWatch for errors.
-
-**C:** Edit the SSML in the skill and use the Alexa Simulator tab on the Test page of the developer console.
-
-**D:** Use the Voice & Tone tab on the Test page in the developer console.
-
-
-
-**Answer: A**
-
-**Timestamp: 2020-10-31 21:32:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35559-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 5 discussion
-
-An Alexa Skill Builder is developing a custom skill to play a live audio stream.
-What two built-in intents are required to implement the AudioPlayer interface?
-
-**A:** AMAZON.NextIntent and AMAZON.StopIntent
-
-**B:** AMAZON.ResumeIntent and AMAZON.PauseIntent
-
-**C:** AMAZON.CancelIntent and AMAZON.ResumeIntent
-
-**D:** AMAZON.RepeatIntent and AMAZON.StopIntent
-
-
-
-**Answer: B**
-
-**Timestamp: 2020-12-04 23:44:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/38848-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 23 discussion
-
-What are the prerequisites for implementing account linking for Amazon Alexa smart home skills?
-
-**A:** OAuth 2.0 with either implicit grant flow or authorization code grant flow
-
-**B:** OAuth 2.0 with authorization code grant flow
-
-**C:** OpenID Connect wit JSON.Web Token (JWT)
-
-**D:** OAuth 1.0/2.0 with implicit grant flow
-
-
-
-**Answer: B**
-
-**Timestamp: 2020-11-07 16:18:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36385-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 24 discussion
-
-An Alexa Skill Builder is developing a skill that enables users to purchase train tickets. The Builder wants to give users the ability to modify the departure time if they are misunderstood, before the skill proceeds to purchase the tickets.
-Which option should be used to implement this functionality within the session?
-
-**A:** Implement AMAZON.FallbackIntent so the user can stop the execution when they have been misunderstood.
-
-**B:** Implement AMAZON.StopIntent so the user can stop the execution and implement reprompt with a new invocation of the skill.
-
-**C:** Implement AMAZON.CancelIntent so the user can cancel the order, then set shouldEndSession to false, and prompt the user for the next action.
-
-**D:** Implement the welcome message, providing clear instructions to the user describing how to format an order.
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-12-25 14:31:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40755-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 25 discussion
-
-An Alexa Skill Builder built a skill using AWS Lambda. The Lambda function works when running the code on a local machine with a runtime of 4.5 seconds, but during skill testing, the Builder receives an error response.
-Which collection of steps will address the issue? (Choose two.)
-
-**A:** Change the Amazon Alexa default timeout to 5 seconds.
-
-**B:** Change the default timeout of the Lambda function to 5 seconds.
-
-**C:** Call the Progressive Response API and send a directive to reduce latency.
-
-**D:** Increase the size of the memory allocated to the Lambda function.
-
-**E:** Clone the Lambda function to another AWS Region.
-
-
-
-**Answer: BE**
-
-**Timestamp: 2020-12-13 14:41:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39764-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 26 discussion
-
-An Alexa Skill Builder wants to name a skill using a company's branded acronym, "NAT Systems."
-Which invocation name is valid?
-
-**A:** n a t systems
-
-**B:** n-a-t systems
-
-**C:** n. a. t. systems
-
-**D:** NAT Systems
-
-
-
-**Answer: D**
-
-**Timestamp: 2020-10-31 20:42:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35552-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 27 discussion
-
-An Alexa Skill Builder is building an interactive storytelling skill where the user can choose their own path through the story. The Builder wants Amazon Alexa to narrate the story and use custom audio for the dialogue for each character, along with various sound effects.
-How can these requirements be met?
-
-**A:** Record custom audio for each segment of the story, then stream audio files stored on Amazon S3 using the AudioPlayer interface for each segment of the story.
-
-**B:** Develop each response as text, and let Alexa speak each part differently using SSML markup for <amazon:effect> to alter the Alexa voice for each character.
-
-**C:** Record custom audio for each character voice and the sound effects in the story, then include the custom audio using SSML markup in the response.
-
-**D:** Record the entire story as custom audio and stream the audio stored on Amazon S3 using the AudioPlayer interface.
-
-
-
-**Answer: A**
-
-**Timestamp: 2020-12-25 14:34:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40757-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40765-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
@@ -1147,118 +1146,119 @@ How can the Builder accomplish this?
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 14 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 23 discussion
 
-An Alexa Skill Builder would like to improve a skill's help experience. To do this, the Builder plans to leverage the user's activity leading up to the help request to contextualize the help response.
-Where should the skill obtain the necessary context?
+What are the prerequisites for implementing account linking for Amazon Alexa smart home skills?
 
-**A:** Load the user's recent activity from the Intent Request History API, then use this to provide context to the AMAZON.HelpIntent request.
+**A:** OAuth 2.0 with either implicit grant flow or authorization code grant flow
 
-**B:** Retrieve the recent activity from the context object passed with the AMAZON.HelpIntent request.
+**B:** OAuth 2.0 with authorization code grant flow
 
-**C:** Use a session attribute to store the intent name for each request, then use this to provide context to the AMAZON.HelpIntent request.
+**C:** OpenID Connect wit JSON.Web Token (JWT)
 
-**D:** Retrieve the recent activity from the slot values passed with the AMAZON.HelpIntent request.
-
-
-
-**Answer: D**
-
-**Timestamp: 2020-11-07 13:53:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36372-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 15 discussion
-
-An Alexa Skill Builder adds a colleague to a skill using the beta test feature. The colleague logs in to the developer console to edit the interaction model and cannot see the skill.
-Why is this happening?
-
-**A:** The colleague needs the ROLE_ADMINISTRATOR enablement.
-
-**B:** The skill was not submitted for publishing.
-
-**C:** The colleague was not made an administrator in the beta test tool.
-
-**D:** The colleague has not been added to the skill's developer account.
-
-
-
-**Answer: C**
-
-**Timestamp: 2020-11-07 14:24:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36374-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 16 discussion
-
-An Amazon Alexa skill fetches data for users from a third-party API and the wait for the response from that call is variable, often taking up to 5 seconds.
-What is the recommended method for notifying users that a skill is working on the request and has not failed to respond?
-
-**A:** Prefetch the data that is expected to the required by the skill from the third-party API using Amazon CloudWatch Events.
-
-**B:** Call the Progressive Response API and send a directive, such as VoicePlayer.Speak
-
-**C:** Ask a follow-up question for clarification to engage the user while waiting for the initially requested response.
-
-**D:** Respond to the user stating that the data will be ready soon, and upon the next launch of the skill, provide the user with the response they initially requested.
+**D:** OAuth 1.0/2.0 with implicit grant flow
 
 
 
 **Answer: B**
 
-**Timestamp: 2020-12-25 14:18:00**
+**Timestamp: 2020-11-07 16:18:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40750-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/36385-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 17 discussion
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 24 discussion
 
-An Alexa Skill Builder has created a custom skill about basketball including a HowToPlayBasketball intent. When looking at the Intent History page in the developer console, the Builder sees that a number of users are asking the skill how to play baseball. The Builder wants to add a relevant response directing the user back to the topic of basketball.
-How should the Builder implement this?
+An Alexa Skill Builder is developing a skill that enables users to purchase train tickets. The Builder wants to give users the ability to modify the departure time if they are misunderstood, before the skill proceeds to purchase the tickets.
+Which option should be used to implement this functionality within the session?
 
-**A:** Add AMAZON.FallbackIntent and respond with a message about baseball in the handler
+**A:** Implement AMAZON.FallbackIntent so the user can stop the execution when they have been misunderstood.
 
-**B:** Create a custom intent related to baseball, and when matched, provide a relevant response
+**B:** Implement AMAZON.StopIntent so the user can stop the execution and implement reprompt with a new invocation of the skill.
 
-**C:** Add more sample utterances related to baseball in the HowToPlayBasketball intent
+**C:** Implement AMAZON.CancelIntent so the user can cancel the order, then set shouldEndSession to false, and prompt the user for the next action.
 
-**D:** Create a new custom baseball slot and add a slot-filling utterance to the HowToPlayBasketball intent.
+**D:** Implement the welcome message, providing clear instructions to the user describing how to format an order.
+
+
+
+**Answer: C**
+
+**Timestamp: 2020-12-25 14:31:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40755-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 25 discussion
+
+An Alexa Skill Builder built a skill using AWS Lambda. The Lambda function works when running the code on a local machine with a runtime of 4.5 seconds, but during skill testing, the Builder receives an error response.
+Which collection of steps will address the issue? (Choose two.)
+
+**A:** Change the Amazon Alexa default timeout to 5 seconds.
+
+**B:** Change the default timeout of the Lambda function to 5 seconds.
+
+**C:** Call the Progressive Response API and send a directive to reduce latency.
+
+**D:** Increase the size of the memory allocated to the Lambda function.
+
+**E:** Clone the Lambda function to another AWS Region.
+
+
+
+**Answer: BE**
+
+**Timestamp: 2020-12-13 14:41:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/39764-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 26 discussion
+
+An Alexa Skill Builder wants to name a skill using a company's branded acronym, "NAT Systems."
+Which invocation name is valid?
+
+**A:** n a t systems
+
+**B:** n-a-t systems
+
+**C:** n. a. t. systems
+
+**D:** NAT Systems
+
+
+
+**Answer: D**
+
+**Timestamp: 2020-10-31 20:42:00**
+
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/35552-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+
+----------------------------------------
+
+## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 27 discussion
+
+An Alexa Skill Builder is building an interactive storytelling skill where the user can choose their own path through the story. The Builder wants Amazon Alexa to narrate the story and use custom audio for the dialogue for each character, along with various sound effects.
+How can these requirements be met?
+
+**A:** Record custom audio for each segment of the story, then stream audio files stored on Amazon S3 using the AudioPlayer interface for each segment of the story.
+
+**B:** Develop each response as text, and let Alexa speak each part differently using SSML markup for <amazon:effect> to alter the Alexa voice for each character.
+
+**C:** Record custom audio for each character voice and the sound effects in the story, then include the custom audio using SSML markup in the response.
+
+**D:** Record the entire story as custom audio and stream the audio stored on Amazon S3 using the AudioPlayer interface.
 
 
 
 **Answer: A**
 
-**Timestamp: 2021-01-25 14:40:00**
+**Timestamp: 2020-12-25 14:34:00**
 
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/43246-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
-
-----------------------------------------
-
-## Exam AWS Certified Alexa Skill Builder - Specialty topic 1 question 18 discussion
-
-An Alexa Skill Builder is using session attributes to maintain a user's state.
-What can the Builder do to ensure that a user's session is not lost if they take too long to answer a question and the skill exists?
-
-**A:** Set shouldEndSession to false in the response object to prevent the skill from exiting.
-
-**B:** Handle the SessionEndedRequest request type and persist the user's session to a database.
-
-**C:** Return false from the SessionEndedRequest handler so the session does not exist.
-
-**D:** Return a reprompt in the response object from the SessionEndedRequest handler.
-
-
-
-**Answer: A**
-
-**Timestamp: 2020-12-06 00:00:00**
-
-[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/38952-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
+[View on ExamTopics](https://www.examtopics.com/discussions/amazon/view/40757-exam-aws-certified-alexa-skill-builder-specialty-topic-1/)
 
 ----------------------------------------
 

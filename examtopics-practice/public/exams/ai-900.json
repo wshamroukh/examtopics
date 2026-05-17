@@ -1,0 +1,4323 @@
+[
+  {
+    "topic_number": 1,
+    "question_number": 1,
+    "title": "Exam AI-900 topic 1 question 1 discussion",
+    "answers": {
+      "A": "increased sales",
+      "B": "a reduced workload for the customer service agents",
+      "C": "improved product reliability"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33857-exam-ai-900-topic-1-question-1-discussion/",
+    "multiple_choice": false,
+    "question_text": "A company employs a team of customer service agents to provide telephone and email support to customers.\nThe company develops a webchat bot to provide automated answers to common customer queries.\nWhich business benefit should the company expect as a result of creating the webchat bot solution?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 2,
+    "title": "Exam AI-900 topic 1 question 2 discussion",
+    "answers": {
+      "A": "Use features for training and labels for evaluation.",
+      "B": "Randomly split the data into rows for training and rows for evaluation.",
+      "C": "Use labels for training and features for evaluation.",
+      "D": "Randomly split the data into columns for training and columns for evaluation."
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33663-exam-ai-900-topic-1-question-2-discussion/",
+    "multiple_choice": false,
+    "question_text": "For a machine learning progress, how should you split data for training and evaluation?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 3,
+    "title": "Exam AI-900 topic 1 question 3 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33477-exam-ai-900-topic-1-question-3-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nYou are developing a model to predict events by using classification.\nYou have a confusion matrix for the model scored on test data as shown in the following exhibit.\n\n\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000500001.png",
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000600001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000300001.png",
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000400001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 4,
+    "title": "Exam AI-900 topic 1 question 4 discussion",
+    "answers": {
+      "A": "Set Validation type to Auto.",
+      "B": "Enable Explain best model.",
+      "C": "Set Primary metric to accuracy.",
+      "D": "Set Max concurrent iterations to 0."
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38529-exam-ai-900-topic-1-question-4-discussion/",
+    "multiple_choice": false,
+    "question_text": "You build a machine learning model by using the automated machine learning user interface (UI).\nYou need to ensure that the model meets the Microsoft transparency principle for responsible AI.\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 5,
+    "title": "Exam AI-900 topic 1 question 5 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33636-exam-ai-900-topic-1-question-5-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000800001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000700001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 6,
+    "title": "Exam AI-900 topic 1 question 6 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33961-exam-ai-900-topic-1-question-6-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000900002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0000900001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 7,
+    "title": "Exam AI-900 topic 1 question 7 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/35221-exam-ai-900-topic-1-question-7-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of AI workloads to the appropriate scenarios.\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001100001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001000001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 8,
+    "title": "Exam AI-900 topic 1 question 8 discussion",
+    "answers": {
+      "A": "fairness",
+      "B": "inclusiveness",
+      "C": "reliability and safety",
+      "D": "accountability"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38530-exam-ai-900-topic-1-question-8-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are designing an AI system that empowers everyone, including people who have hearing, visual, and other impairments.\nThis is an example of which Microsoft guiding principle for responsible AI?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 9,
+    "title": "Exam AI-900 topic 1 question 9 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33962-exam-ai-900-topic-1-question-9-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the Microsoft guiding principles for responsible AI to the appropriate descriptions.\nTo answer, drag the appropriate principle from the column on the left to its description on the right. Each principle may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001300001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001200001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 10,
+    "title": "Exam AI-900 topic 1 question 10 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/40477-exam-ai-900-topic-1-question-10-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001400002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001400001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 11,
+    "title": "Exam AI-900 topic 1 question 11 discussion",
+    "answers": {
+      "A": "Ensure that all visuals have an associated text that can be read by a screen reader.",
+      "B": "Enable autoscaling to ensure that a service scales based on demand.",
+      "C": "Provide documentation to help developers debug code.",
+      "D": "Ensure that a training dataset is representative of the population."
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38717-exam-ai-900-topic-1-question-11-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building an AI system.\nWhich task should you include to ensure that the service meets the Microsoft transparency principle for responsible AI?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 12,
+    "title": "Exam AI-900 topic 1 question 12 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/53898-exam-ai-900-topic-1-question-12-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of AI workloads to the appropriate scenarios.\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001600001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001500001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 13,
+    "title": "Exam AI-900 topic 1 question 13 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/125155-exam-ai-900-topic-1-question-13-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image292.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image291.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 14,
+    "title": "Exam AI-900 topic 1 question 14 discussion",
+    "answers": {
+      "A": "knowledgeability",
+      "B": "decisiveness",
+      "C": "inclusiveness",
+      "D": "fairness",
+      "E": "opinionatedness",
+      "F": "reliability and safety"
+    },
+    "suggested_answer": "CDF",
+    "answer": "CDF",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38720-exam-ai-900-topic-1-question-14-discussion/",
+    "multiple_choice": true,
+    "question_text": "What are three Microsoft guiding principles for responsible AI? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 15,
+    "title": "Exam AI-900 topic 1 question 15 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54202-exam-ai-900-topic-1-question-15-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001800002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001800001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 16,
+    "title": "Exam AI-900 topic 1 question 16 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54573-exam-ai-900-topic-1-question-16-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001900002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0001900001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 17,
+    "title": "Exam AI-900 topic 1 question 17 discussion",
+    "answers": {
+      "A": "the Verify operation in the Face service",
+      "B": "the Detect operation in the Face service",
+      "C": "the Describe Image operation in the Computer Vision service",
+      "D": "the Analyze Image operation in the Computer Vision service"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38723-exam-ai-900-topic-1-question-17-discussion/",
+    "multiple_choice": false,
+    "question_text": "You run a charity event that involves posting photos of people wearing sunglasses on Twitter.\nYou need to ensure that you only retweet photos that meet the following requirements:\n✑ Include one or more faces.\n✑ Contain at least one person wearing sunglasses.\nWhat should you use to analyze the images?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 18,
+    "title": "Exam AI-900 topic 1 question 18 discussion",
+    "answers": {
+      "A": "transparency",
+      "B": "inclusiveness",
+      "C": "fairness",
+      "D": "privacy and security"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/64375-exam-ai-900-topic-1-question-18-discussion/",
+    "multiple_choice": false,
+    "question_text": "When you design an AI system to assess whether loans should be approved, the factors used to make the decision should be explainable.\nThis is an example of which Microsoft guiding principle for responsible AI?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 19,
+    "title": "Exam AI-900 topic 1 question 19 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63426-exam-ai-900-topic-1-question-19-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002200002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002200001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 20,
+    "title": "Exam AI-900 topic 1 question 20 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/64801-exam-ai-900-topic-1-question-20-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the principles of responsible AI to appropriate requirements.\nTo answer, drag the appropriate principles from the column on the left to its requirement on the right. Each principle may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002400001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002300001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 21,
+    "title": "Exam AI-900 topic 1 question 21 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65330-exam-ai-900-topic-1-question-21-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nYou plan to deploy an Azure Machine Learning model as a service that will be used by client applications.\nWhich three processes should you perform in sequence before you deploy the model? To answer, move the appropriate processes from the list of processes to the answer area and arrange them in the correct order.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002600001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002500001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 22,
+    "title": "Exam AI-900 topic 1 question 22 discussion",
+    "answers": {
+      "A": "Implement an Agile software development methodology",
+      "B": "Implement a process of AI model validation as part of the software review process",
+      "C": "Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer",
+      "D": "Prevent the disclosure of the use of AI-based algorithms for automated decision making"
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65334-exam-ai-900-topic-1-question-22-discussion/",
+    "multiple_choice": true,
+    "question_text": "You are building an AI-based app.\nYou need to ensure that the app uses the principles for responsible AI.\nWhich two principles should you follow? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 23,
+    "title": "Exam AI-900 topic 1 question 23 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/64840-exam-ai-900-topic-1-question-23-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002800001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002700001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 24,
+    "title": "Exam AI-900 topic 1 question 24 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/85070-exam-ai-900-topic-1-question-24-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002900001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0002800002.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 25,
+    "title": "Exam AI-900 topic 1 question 25 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80835-exam-ai-900-topic-1-question-25-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of AI workloads to the appropriate scenarios.\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003000002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003000001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 26,
+    "title": "Exam AI-900 topic 1 question 26 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38544-exam-ai-900-topic-1-question-26-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the machine learning tasks to the appropriate scenarios.\nTo answer, drag the appropriate task from the column on the left to its scenario on the right. Each task may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003200001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003100001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 27,
+    "title": "Exam AI-900 topic 1 question 27 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33592-exam-ai-900-topic-1-question-27-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003300002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003300001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 28,
+    "title": "Exam AI-900 topic 1 question 28 discussion",
+    "answers": {
+      "A": "classification",
+      "B": "regression",
+      "C": "clustering"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/39642-exam-ai-900-topic-1-question-28-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have the Predicted vs. True chart shown in the following exhibit.\n//IMG//\n\nWhich type of model is the chart used to evaluate?",
+    "answer_images": [],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003400001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 29,
+    "title": "Exam AI-900 topic 1 question 29 discussion",
+    "answers": {
+      "A": "classification",
+      "B": "regression",
+      "C": "clustering"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33471-exam-ai-900-topic-1-question-29-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which type of machine learning should you use to predict the number of gift cards that will be sold next month?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 30,
+    "title": "Exam AI-900 topic 1 question 30 discussion",
+    "answers": {
+      "A": "the number of taxi journeys in the dataset",
+      "B": "the trip distance of individual taxi journeys",
+      "C": "the fare of individual taxi journeys",
+      "D": "the trip ID of individual taxi journeys"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/36441-exam-ai-900-topic-1-question-30-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a dataset that contains information about taxi journeys that occurred during a given period.\nYou need to train a model to predict the fare of a taxi journey.\nWhat should you use as a feature?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 31,
+    "title": "Exam AI-900 topic 1 question 31 discussion",
+    "answers": {
+      "A": "classification",
+      "B": "regression",
+      "C": "clustering"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38547-exam-ai-900-topic-1-question-31-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to predict the sea level in meters for the next 10 years.\nWhich type of machine learning should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 32,
+    "title": "Exam AI-900 topic 1 question 32 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38764-exam-ai-900-topic-1-question-32-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003800001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003700001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 33,
+    "title": "Exam AI-900 topic 1 question 33 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33461-exam-ai-900-topic-1-question-33-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003900002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0003900001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 34,
+    "title": "Exam AI-900 topic 1 question 34 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/35213-exam-ai-900-topic-1-question-34-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004100001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004000001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 35,
+    "title": "Exam AI-900 topic 1 question 35 discussion",
+    "answers": {
+      "A": "Form Recognizer",
+      "B": "Text Analytics",
+      "C": "Language Understanding",
+      "D": "Custom Vision"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63307-exam-ai-900-topic-1-question-35-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which service should you use to extract text, key/value pairs, and table data automatically from scanned documents?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 36,
+    "title": "Exam AI-900 topic 1 question 36 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38534-exam-ai-900-topic-1-question-36-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004300001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004200001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 37,
+    "title": "Exam AI-900 topic 1 question 37 discussion",
+    "answers": {
+      "A": "the model name",
+      "B": "the training endpoint",
+      "C": "the authentication key",
+      "D": "the REST endpoint"
+    },
+    "suggested_answer": "CD",
+    "answer": "CD",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/79068-exam-ai-900-topic-1-question-37-discussion/",
+    "multiple_choice": true,
+    "question_text": "You use Azure Machine Learning designer to publish an inference pipeline.\nWhich two parameters should you use to access the web service? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 38,
+    "title": "Exam AI-900 topic 1 question 38 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/34648-exam-ai-900-topic-1-question-38-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004500001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004400003.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 39,
+    "title": "Exam AI-900 topic 1 question 39 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38538-exam-ai-900-topic-1-question-39-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004600002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004600001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 40,
+    "title": "Exam AI-900 topic 1 question 40 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38539-exam-ai-900-topic-1-question-40-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004800001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004700003.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 41,
+    "title": "Exam AI-900 topic 1 question 41 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38352-exam-ai-900-topic-1-question-41-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nYou have the following dataset.\n\n\nYou plan to use the dataset to train a model that will predict the house price categories of houses.\nWhat are Household Income and House Price Category? To answer, select the appropriate option in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005000001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004900001.png",
+      "https://www.examtopics.com/assets/media/exam-media/04234/0004900002.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 42,
+    "title": "Exam AI-900 topic 1 question 42 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54422-exam-ai-900-topic-1-question-42-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005100002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005100001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 43,
+    "title": "Exam AI-900 topic 1 question 43 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/55037-exam-ai-900-topic-1-question-43-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image293.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005200001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 44,
+    "title": "Exam AI-900 topic 1 question 44 discussion",
+    "answers": {
+      "A": "clustering",
+      "B": "regression",
+      "C": "classification"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/39408-exam-ai-900-topic-1-question-44-discussion/",
+    "multiple_choice": false,
+    "question_text": "A medical research project uses a large anonymized dataset of brain scan images that are categorized into predefined brain haemorrhage types.\nYou need to use machine learning to support early detection of the different brain haemorrhage types in the images before the images are reviewed by a person.\nThis is an example of which type of machine learning?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 45,
+    "title": "Exam AI-900 topic 1 question 45 discussion",
+    "answers": {
+      "A": "to train the model twice to attain better accuracy",
+      "B": "to train multiple models simultaneously to attain better performance",
+      "C": "to test the model by using data that was not used to train the model"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38724-exam-ai-900-topic-1-question-45-discussion/",
+    "multiple_choice": false,
+    "question_text": "When training a model, why should you randomly split the rows into separate subsets?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 46,
+    "title": "Exam AI-900 topic 1 question 46 discussion",
+    "answers": {
+      "A": "Use a graphical user interface (GUI) to run automated machine learning experiments.",
+      "B": "Create a compute instance to use as a workstation.",
+      "C": "Use a graphical user interface (GUI) to define and run machine learning experiments from Azure Machine Learning designer.",
+      "D": "Create a dataset from a comma-separated value (CSV) file."
+    },
+    "suggested_answer": "AC",
+    "answer": "AC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/40141-exam-ai-900-topic-1-question-46-discussion/",
+    "multiple_choice": true,
+    "question_text": "You are evaluating whether to use a basic workspace or an enterprise workspace in Azure Machine Learning.\nWhat are two tasks that require an enterprise workspace? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 47,
+    "title": "Exam AI-900 topic 1 question 47 discussion",
+    "answers": {
+      "A": "Education Level",
+      "B": "Last Name",
+      "C": "Age",
+      "D": "Income Range",
+      "E": "First Name"
+    },
+    "suggested_answer": "AC",
+    "answer": "AC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54522-exam-ai-900-topic-1-question-47-discussion/",
+    "multiple_choice": true,
+    "question_text": "You need to predict the income range of a given customer by using the following dataset.\n//IMG//\n\nWhich two fields should you use as features? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005500001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 48,
+    "title": "Exam AI-900 topic 1 question 48 discussion",
+    "answers": {
+      "A": "Custom Vision",
+      "B": "Form Recognizer",
+      "C": "Face",
+      "D": "Computer Vision"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65316-exam-ai-900-topic-1-question-48-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building a tool that will process images from retail stores and identify the products of competitors.\nThe solution will use a custom model.\nWhich Azure Cognitive Services service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 49,
+    "title": "Exam AI-900 topic 1 question 49 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63009-exam-ai-900-topic-1-question-49-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005700002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005700001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 50,
+    "title": "Exam AI-900 topic 1 question 50 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63326-exam-ai-900-topic-1-question-50-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005900001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0005800001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 51,
+    "title": "Exam AI-900 topic 1 question 51 discussion",
+    "answers": {
+      "A": "coefficient of determination (R2)",
+      "B": "F1 score",
+      "C": "root mean squared error (RMSE)",
+      "D": "area under curve (AUC)",
+      "E": "balanced accuracy"
+    },
+    "suggested_answer": "AC",
+    "answer": "AC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65335-exam-ai-900-topic-1-question-51-discussion/",
+    "multiple_choice": true,
+    "question_text": "What are two metrics that you can use to evaluate a regression model? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 52,
+    "title": "Exam AI-900 topic 1 question 52 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65336-exam-ai-900-topic-1-question-52-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006100002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006100001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 53,
+    "title": "Exam AI-900 topic 1 question 53 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63334-exam-ai-900-topic-1-question-53-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nYou need to use Azure Machine Learning designer to build a model that will predict automobile prices.\nWhich type of modules should you use to complete the model? To answer, drag the appropriate modules to the correct locations. Each module may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006300001.png",
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006400001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006200001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 54,
+    "title": "Exam AI-900 topic 1 question 54 discussion",
+    "answers": {
+      "A": "classification",
+      "B": "regression",
+      "C": "clustering"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/64165-exam-ai-900-topic-1-question-54-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which type of machine learning should you use to identify groups of people who have similar purchasing habits?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 55,
+    "title": "Exam AI-900 topic 1 question 55 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/64984-exam-ai-900-topic-1-question-55-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006600001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006500001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 56,
+    "title": "Exam AI-900 topic 1 question 56 discussion",
+    "answers": {
+      "A": "true positive rate",
+      "B": "mean absolute error (MAE)",
+      "C": "coefficient of determination (R2)",
+      "D": "root mean squared error (RMSE)"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38354-exam-ai-900-topic-1-question-56-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which metric can you use to evaluate a classification model?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 57,
+    "title": "Exam AI-900 topic 1 question 57 discussion",
+    "answers": {
+      "A": "dataset",
+      "B": "compute",
+      "C": "pipeline",
+      "D": "module"
+    },
+    "suggested_answer": "AD",
+    "answer": "AD",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38355-exam-ai-900-topic-1-question-57-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which two components can you drag onto a canvas in Azure Machine Learning designer? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 58,
+    "title": "Exam AI-900 topic 1 question 58 discussion",
+    "answers": {
+      "A": "Select Columns in Dataset",
+      "B": "Add Rows",
+      "C": "Split Data",
+      "D": "Join Data"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38356-exam-ai-900-topic-1-question-58-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to create a training dataset and validation dataset from an existing dataset.\nWhich module in the Azure Machine Learning designer should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 59,
+    "title": "Exam AI-900 topic 1 question 59 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33459-exam-ai-900-topic-1-question-59-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of machine learning to the appropriate scenarios.\nTo answer, drag the appropriate machine learning type from the column on the left to its scenario on the right. Each machine learning type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006800002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006800001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 60,
+    "title": "Exam AI-900 topic 1 question 60 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65279-exam-ai-900-topic-1-question-60-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image294.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0006900001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 61,
+    "title": "Exam AI-900 topic 1 question 61 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65338-exam-ai-900-topic-1-question-61-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007100001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007000002.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 62,
+    "title": "Exam AI-900 topic 1 question 62 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/64702-exam-ai-900-topic-1-question-62-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image295.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007100002.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 63,
+    "title": "Exam AI-900 topic 1 question 63 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65008-exam-ai-900-topic-1-question-63-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007300001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007200002.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 64,
+    "title": "Exam AI-900 topic 1 question 64 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/79855-exam-ai-900-topic-1-question-64-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nYou have an Azure Machine Learning model that predicts product quality. The model has a training dataset that contains 50,000 records. A sample of the data is shown in the following table.\n\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007400002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007300002.png",
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007400001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 65,
+    "title": "Exam AI-900 topic 1 question 65 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80868-exam-ai-900-topic-1-question-65-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007500002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007500001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 66,
+    "title": "Exam AI-900 topic 1 question 66 discussion",
+    "answers": {
+      "A": "Calculate the accuracy of the model.",
+      "B": "Score test data by using the model.",
+      "C": "Combine multiple datasets.",
+      "D": "Use the model for real-time predictions.",
+      "E": "Remove records that have missing values."
+    },
+    "suggested_answer": "CE",
+    "answer": "CE",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80870-exam-ai-900-topic-1-question-66-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which two actions are performed during the data ingestion and data preparation stage of an Azure Machine Learning process? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 67,
+    "title": "Exam AI-900 topic 1 question 67 discussion",
+    "answers": {
+      "A": "regression",
+      "B": "clustering",
+      "C": "classification"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80871-exam-ai-900-topic-1-question-67-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to predict the animal population of an area.\nWhich Azure Machine Learning type should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 68,
+    "title": "Exam AI-900 topic 1 question 68 discussion",
+    "answers": {
+      "A": "Python",
+      "B": "R",
+      "C": "C#",
+      "D": "Scala"
+    },
+    "suggested_answer": "AB",
+    "answer": "AB",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80872-exam-ai-900-topic-1-question-68-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which two languages can you use to write custom code for Azure Machine Learning designer? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 69,
+    "title": "Exam AI-900 topic 1 question 69 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/82151-exam-ai-900-topic-1-question-69-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007800002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0007800001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 70,
+    "title": "Exam AI-900 topic 1 question 70 discussion",
+    "answers": {
+      "A": "anomaly detection",
+      "B": "conversational AI",
+      "C": "computer vision",
+      "D": "natural language processing"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/35010-exam-ai-900-topic-1-question-70-discussion/",
+    "multiple_choice": false,
+    "question_text": "Your company wants to build a recycling machine for bottles. The recycling machine must automatically identify bottles of the correct shape and reject all other items.\nWhich type of AI workload should the company use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 71,
+    "title": "Exam AI-900 topic 1 question 71 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/55294-exam-ai-900-topic-1-question-71-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008000002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008000001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 72,
+    "title": "Exam AI-900 topic 1 question 72 discussion",
+    "answers": {
+      "A": "Extract the invoice number from an invoice.",
+      "B": "Translate a form from French to English.",
+      "C": "Find image of product in a catalog.",
+      "D": "Identify the retailer from a receipt."
+    },
+    "suggested_answer": "AD",
+    "answer": "AD",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38738-exam-ai-900-topic-1-question-72-discussion/",
+    "multiple_choice": true,
+    "question_text": "In which two scenarios can you use the Form Recognizer service? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 73,
+    "title": "Exam AI-900 topic 1 question 73 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/86269-exam-ai-900-topic-1-question-73-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008200002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008200001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 74,
+    "title": "Exam AI-900 topic 1 question 74 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/55027-exam-ai-900-topic-1-question-74-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nYou have a database that contains a list of employees and their photos.\nYou are tagging new photos of the employees.\nFor each of the following statements select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008400001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008300001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 75,
+    "title": "Exam AI-900 topic 1 question 75 discussion",
+    "answers": {
+      "A": "semantic segmentation",
+      "B": "image classification",
+      "C": "object detection",
+      "D": "optical character recognition (OCR)"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/36702-exam-ai-900-topic-1-question-75-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to develop a mobile app for employees to scan and store their expenses while travelling.\nWhich type of computer vision should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 76,
+    "title": "Exam AI-900 topic 1 question 76 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/63287-exam-ai-900-topic-1-question-76-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008600001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008500001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 77,
+    "title": "Exam AI-900 topic 1 question 77 discussion",
+    "answers": {
+      "A": "facial recognition",
+      "B": "optical character recognition (OCR)",
+      "C": "image classification",
+      "D": "object detection"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/102306-exam-ai-900-topic-1-question-77-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are processing photos of runners in a race.\nYou need to read the numbers on the runners' shirts to identity the runners in the photos.\nWhich type of computer vision should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 78,
+    "title": "Exam AI-900 topic 1 question 78 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65060-exam-ai-900-topic-1-question-78-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of machine learning to the appropriate scenarios.\nTo answer, drag the appropriate machine learning type from the column on the left to its scenario on the right. Each machine learning type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008800002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0008800001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 79,
+    "title": "Exam AI-900 topic 1 question 79 discussion",
+    "answers": {
+      "A": "object detection",
+      "B": "optical character recognition (OCR)",
+      "C": "scene segmentation"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65342-exam-ai-900-topic-1-question-79-discussion/",
+    "multiple_choice": false,
+    "question_text": "You use drones to identify where weeds grow between rows of crops to send an instruction for the removal of the weeds.\nThis is an example of which type of computer vision?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 80,
+    "title": "Exam AI-900 topic 1 question 80 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/35504-exam-ai-900-topic-1-question-80-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the facial recognition tasks to the appropriate questions.\nTo answer, drag the appropriate task from the column on the left to its question on the right. Each task may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009000002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009000001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 81,
+    "title": "Exam AI-900 topic 1 question 81 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54524-exam-ai-900-topic-1-question-81-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of computer vision workloads to the appropriate scenarios.\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009200001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009100001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 82,
+    "title": "Exam AI-900 topic 1 question 82 discussion",
+    "answers": {
+      "A": "optical character recognition (OCR)",
+      "B": "object detection",
+      "C": "image classification",
+      "D": "face detection"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38549-exam-ai-900-topic-1-question-82-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to determine the location of cars in an image so that you can estimate the distance between the cars.\nWhich type of computer vision should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 83,
+    "title": "Exam AI-900 topic 1 question 83 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/35055-exam-ai-900-topic-1-question-83-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009400002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009400001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 84,
+    "title": "Exam AI-900 topic 1 question 84 discussion",
+    "answers": {
+      "A": "object detection",
+      "B": "face detection",
+      "C": "optical character recognition (OCR)",
+      "D": "image classification"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/82888-exam-ai-900-topic-1-question-84-discussion/",
+    "multiple_choice": false,
+    "question_text": "You send an image to a Computer Vision API and receive back the annotated image shown in the exhibit.\n//IMG//\n\nWhich type of computer vision was used?",
+    "answer_images": [],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009500001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 85,
+    "title": "Exam AI-900 topic 1 question 85 discussion",
+    "answers": {
+      "A": "Train a custom image classification model.",
+      "B": "Detect faces in an image.",
+      "C": "Recognize handwritten text.",
+      "D": "Translate the text in an image between languages."
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/34063-exam-ai-900-topic-1-question-85-discussion/",
+    "multiple_choice": true,
+    "question_text": "What are two tasks that can be performed by using the Computer Vision service? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 86,
+    "title": "Exam AI-900 topic 1 question 86 discussion",
+    "answers": {
+      "A": "predicting how many cups of coffee a person will drink based on how many hours the person slept the previous night.",
+      "B": "analyzing the contents of images and grouping images that have similar colors",
+      "C": "predicting whether someone uses a bicycle to travel to work based on the distance from home to work",
+      "D": "predicting how many minutes it will take someone to run a race based on past race times"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33464-exam-ai-900-topic-1-question-86-discussion/",
+    "multiple_choice": false,
+    "question_text": "What is a use case for classification?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 87,
+    "title": "Exam AI-900 topic 1 question 87 discussion",
+    "answers": {
+      "A": "Predict stock prices.",
+      "B": "Detect brands in an image.",
+      "C": "Detect the color scheme in an image",
+      "D": "Translate text between languages.",
+      "E": "Extract key phrases."
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33595-exam-ai-900-topic-1-question-87-discussion/",
+    "multiple_choice": true,
+    "question_text": "What are two tasks that can be performed by using computer vision? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 88,
+    "title": "Exam AI-900 topic 1 question 88 discussion",
+    "answers": {
+      "A": "Face",
+      "B": "Form Recognizer",
+      "C": "Text Analytics",
+      "D": "Computer Vision"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65081-exam-ai-900-topic-1-question-88-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to build an image tagging solution for social media that tags images of your friends automatically.\nWhich Azure Cognitive Services service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 89,
+    "title": "Exam AI-900 topic 1 question 89 discussion",
+    "answers": {
+      "A": "Identify the retailer from a receipt",
+      "B": "Translate from French to English",
+      "C": "Extract the invoice number from an invoice",
+      "D": "Find images of products in a catalog"
+    },
+    "suggested_answer": "AC",
+    "answer": "AC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65500-exam-ai-900-topic-1-question-89-discussion/",
+    "multiple_choice": true,
+    "question_text": "In which two scenarios can you use the Form Recognizer service? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 90,
+    "title": "Exam AI-900 topic 1 question 90 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/96228-exam-ai-900-topic-1-question-90-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the facial recognition tasks to the appropriate questions.\nTo answer, drag the appropriate task from the column on the left to its question on the right. Each task may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010000001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0009900001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 91,
+    "title": "Exam AI-900 topic 1 question 91 discussion",
+    "answers": {
+      "A": "Recognize text.",
+      "B": "Identify the areas of interest.",
+      "C": "Detect objects.",
+      "D": "Describe the images."
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/102308-exam-ai-900-topic-1-question-91-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which Computer Vision feature can you use to generate automatic captions for digital photographs?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 92,
+    "title": "Exam AI-900 topic 1 question 92 discussion",
+    "answers": {
+      "A": "Custom Vision",
+      "B": "Face",
+      "C": "Form Recognizer",
+      "D": "Language"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/102309-exam-ai-900-topic-1-question-92-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which service should you use to extract text, key/value pairs, and table data automatically from scanned documents?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 93,
+    "title": "Exam AI-900 topic 1 question 93 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/107586-exam-ai-900-topic-1-question-93-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010200002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010200001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 94,
+    "title": "Exam AI-900 topic 1 question 94 discussion",
+    "answers": {
+      "A": "entity recognition",
+      "B": "key phrase extraction",
+      "C": "sentiment analysis",
+      "D": "language detection"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38702-exam-ai-900-topic-1-question-94-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a solution that uses the Text Analytics service.\nYou need to identify the main talking points in a collection of documents.\nWhich type of natural language processing should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 95,
+    "title": "Exam AI-900 topic 1 question 95 discussion",
+    "answers": {
+      "A": "an in-car system that reads text messages aloud",
+      "B": "providing closed captions for recorded or live videos",
+      "C": "creating an automated public address system for a train station",
+      "D": "creating a transcript of a telephone call or meeting"
+    },
+    "suggested_answer": "BD",
+    "answer": "BD",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38742-exam-ai-900-topic-1-question-95-discussion/",
+    "multiple_choice": true,
+    "question_text": "In which two scenarios can you use speech recognition? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 96,
+    "title": "Exam AI-900 topic 1 question 96 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/56797-exam-ai-900-topic-1-question-96-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010400002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010400001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 97,
+    "title": "Exam AI-900 topic 1 question 97 discussion",
+    "answers": {
+      "A": "Text Analytics",
+      "B": "Translator",
+      "C": "Speech",
+      "D": "Language Understanding (LUIS)"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38743-exam-ai-900-topic-1-question-97-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to build an app that will read recipe instructions aloud to support users who have reduced vision.\nWhich version service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 98,
+    "title": "Exam AI-900 topic 1 question 98 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54196-exam-ai-900-topic-1-question-98-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010600002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010600001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 99,
+    "title": "Exam AI-900 topic 1 question 99 discussion",
+    "answers": {
+      "A": "anomaly detection",
+      "B": "computer vision",
+      "C": "regression",
+      "D": "natural language processing"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65783-exam-ai-900-topic-1-question-99-discussion/",
+    "multiple_choice": false,
+    "question_text": "Your website has a chatbot to assist customers.\nYou need to detect when a customer is upset based on what the customer types in the chatbot.\nWhich type of AI workload should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 100,
+    "title": "Exam AI-900 topic 1 question 100 discussion",
+    "answers": {
+      "A": "QnA Maker",
+      "B": "Azure Bot Service",
+      "C": "Form Recognizer",
+      "D": "Anomaly Detector"
+    },
+    "suggested_answer": "AB",
+    "answer": "AB",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54685-exam-ai-900-topic-1-question-100-discussion/",
+    "multiple_choice": true,
+    "question_text": "You plan to develop a bot that will enable users to query a knowledge base by using natural language processing.\nWhich two services should you include in the solution? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 101,
+    "title": "Exam AI-900 topic 1 question 101 discussion",
+    "answers": {
+      "A": "an automated voice that reads back a credit card number entered into a telephone by using a numeric keypad",
+      "B": "generating live captions for a news broadcast",
+      "C": "extracting key phrases from the audio recording of a meeting",
+      "D": "an AI character in a computer game that speaks audibly to a player"
+    },
+    "suggested_answer": "AD",
+    "answer": "AD",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/71379-exam-ai-900-topic-1-question-101-discussion/",
+    "multiple_choice": true,
+    "question_text": "In which two scenarios can you use a speech synthesis solution? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 102,
+    "title": "Exam AI-900 topic 1 question 102 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/62864-exam-ai-900-topic-1-question-102-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011000001.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0010900001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 103,
+    "title": "Exam AI-900 topic 1 question 103 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/66632-exam-ai-900-topic-1-question-103-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nYou need to scan the news for articles about your customers and alert employees when there is a negative article. Positive articles must be added to a press book.\nWhich natural language processing tasks should you use to complete the process? To answer, drag the appropriate tasks to the correct locations. Each task may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011100002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011100001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 104,
+    "title": "Exam AI-900 topic 1 question 104 discussion",
+    "answers": {
+      "A": "PPTX",
+      "B": "XML",
+      "C": "ZIP",
+      "D": "PDF"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/71815-exam-ai-900-topic-1-question-104-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building a knowledge base by using QnA Maker.\nWhich file format can you use to populate the knowledge base?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 105,
+    "title": "Exam AI-900 topic 1 question 105 discussion",
+    "answers": {
+      "A": "identifying whether reviews of a restaurant are positive or negative",
+      "B": "generating captions for a video based on the audio track",
+      "C": "identifying which documents provide information about the same topics",
+      "D": "translating a set of documents from English to German"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65086-exam-ai-900-topic-1-question-105-discussion/",
+    "multiple_choice": false,
+    "question_text": "In which scenario should you use key phrase extraction?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 106,
+    "title": "Exam AI-900 topic 1 question 106 discussion",
+    "answers": {
+      "A": "natural language processing",
+      "B": "conversational AI",
+      "C": "anomaly detection",
+      "D": "computer vision"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/69782-exam-ai-900-topic-1-question-106-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have insurance claim reports that are stored as text.\nYou need to extract key terms from the reports to generate summaries.\nWhich type of AI workload should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 107,
+    "title": "Exam AI-900 topic 1 question 107 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/34064-exam-ai-900-topic-1-question-107-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011500001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011400001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 108,
+    "title": "Exam AI-900 topic 1 question 108 discussion",
+    "answers": {
+      "A": "Translator",
+      "B": "Text Analytics",
+      "C": "Speech",
+      "D": "Language Understanding (LUIS)"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/103487-exam-ai-900-topic-1-question-108-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which AI service can you use to interpret the meaning of a user input such as `Call me back later?`",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 109,
+    "title": "Exam AI-900 topic 1 question 109 discussion",
+    "answers": {
+      "A": "Translator",
+      "B": "QnA Maker",
+      "C": "Speech",
+      "D": "Language Understanding (LUIS)"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54756-exam-ai-900-topic-1-question-109-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a chatbot solution in Azure.\nWhich service should you use to determine a user's intent?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 110,
+    "title": "Exam AI-900 topic 1 question 110 discussion",
+    "answers": {
+      "A": "Translator",
+      "B": "Text Analytics",
+      "C": "Speech",
+      "D": "Language Understanding (LUIS)"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65748-exam-ai-900-topic-1-question-110-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to make the written press releases of your company available in a range of languages.\nWhich service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 111,
+    "title": "Exam AI-900 topic 1 question 111 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/40336-exam-ai-900-topic-1-question-111-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011800001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011700001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 112,
+    "title": "Exam AI-900 topic 1 question 112 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/104921-exam-ai-900-topic-1-question-112-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of natural languages processing workloads to the appropriate scenarios.\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011900002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0011900001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 113,
+    "title": "Exam AI-900 topic 1 question 113 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38770-exam-ai-900-topic-1-question-113-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012100002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012100001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 114,
+    "title": "Exam AI-900 topic 1 question 114 discussion",
+    "answers": {
+      "A": "language detection",
+      "B": "sentiment analysis",
+      "C": "key phrase extraction",
+      "D": "entity recognition"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38701-exam-ai-900-topic-1-question-114-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a natural language processing solution in Azure. The solution will analyze customer reviews and determine how positive or negative each review is.\nThis is an example of which type of natural language processing workload?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 115,
+    "title": "Exam AI-900 topic 1 question 115 discussion",
+    "answers": {
+      "A": "entity recognition",
+      "B": "key phrase extraction",
+      "C": "sentiment analysis",
+      "D": "translation"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/34101-exam-ai-900-topic-1-question-115-discussion/",
+    "multiple_choice": false,
+    "question_text": "You use natural language processing to process text from a Microsoft news story.\nYou receive the output shown in the following exhibit.\n//IMG//\n\nWhich type of natural languages processing was performed?",
+    "answer_images": [],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012300001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 116,
+    "title": "Exam AI-900 topic 1 question 116 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/33696-exam-ai-900-topic-1-question-116-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nYou plan to apply Text Analytics API features to a technical support ticketing system.\nMatch the Text Analytics API features to the appropriate natural language processing scenarios.\nTo answer, drag the appropriate feature from the column on the left to its scenario on the right. Each feature may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012500001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012400001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 117,
+    "title": "Exam AI-900 topic 1 question 117 discussion",
+    "answers": {
+      "A": "an intent",
+      "B": "an utterance",
+      "C": "a domain",
+      "D": "an entity"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/98781-exam-ai-900-topic-1-question-117-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are authoring a Language Understanding (LUIS) application to support a music festival.\nYou want users to be able to ask questions about scheduled shows, such as: `Which act is playing on the main stage?`\nThe question `Which act is playing on the main stage?` is an example of which type of element?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 118,
+    "title": "Exam AI-900 topic 1 question 118 discussion",
+    "answers": {
+      "A": "Increase the confidence threshold of responses",
+      "B": "Enable active learning",
+      "C": "Create multi-turn questions",
+      "D": "Add chit-chat"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/69591-exam-ai-900-topic-1-question-118-discussion/",
+    "multiple_choice": false,
+    "question_text": "You build a QnA Maker bot by using a frequently asked questions (FAQ) page.\nYou need to add professional greetings and other responses to make the bot more user friendly.\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 119,
+    "title": "Exam AI-900 topic 1 question 119 discussion",
+    "answers": {
+      "A": "Azure Bot Service",
+      "B": "Language Understanding",
+      "C": "Text Analytics",
+      "D": "QnA Maker"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/66867-exam-ai-900-topic-1-question-119-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to develop a chatbot for a website. The chatbot must answer users' questions based on the information in the following documents:\n✑ A product troubleshooting guide in a Microsoft Word document\n✑ A frequently asked questions (FAQ) list on a webpage\nWhich service should you use to process the documents?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 120,
+    "title": "Exam AI-900 topic 1 question 120 discussion",
+    "answers": {
+      "A": "Test the model by using new utterances",
+      "B": "Add utterances to the None intent",
+      "C": "Create a prebuilt task entity",
+      "D": "Create a new model"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/69592-exam-ai-900-topic-1-question-120-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building a Language Understanding model for an e-commerce business.\nYou need to ensure that the model detects when utterances are outside the intended scope of the model.\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 121,
+    "title": "Exam AI-900 topic 1 question 121 discussion",
+    "answers": {
+      "A": "monitoring the temperature of machinery to turn on a fan when the temperature reaches a specific threshold",
+      "B": "a smart device in the home that responds to questions such as, \"What will the weather be like today?\"",
+      "C": "a website that uses a knowledge base to interactively respond to users' questions",
+      "D": "assembly line machinery that autonomously inserts headlamps into cars"
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/95937-exam-ai-900-topic-1-question-121-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which two scenarios are examples of a natural language processing workload? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 122,
+    "title": "Exam AI-900 topic 1 question 122 discussion",
+    "answers": {
+      "A": "text-to-speech",
+      "B": "key phrase extraction",
+      "C": "speech-to-text",
+      "D": "language modeling",
+      "E": "translation"
+    },
+    "suggested_answer": "CD",
+    "answer": "CD",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/90230-exam-ai-900-topic-1-question-122-discussion/",
+    "multiple_choice": true,
+    "question_text": "You have an AI solution that provides users with the ability to control smart devices by using verbal commands.\nWhich two types of natural language processing (NLP) workloads does the solution use? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 123,
+    "title": "Exam AI-900 topic 1 question 123 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105690-exam-ai-900-topic-1-question-123-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012900002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0012900001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 124,
+    "title": "Exam AI-900 topic 1 question 124 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/108796-exam-ai-900-topic-1-question-124-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nYou plan to use Azure Cognitive Services to develop a voice controlled personal assistant app.\nMatch the Azure Cognitive Services to the appropriate tasks.\nTo answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0013100002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0013100001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 125,
+    "title": "Exam AI-900 topic 1 question 125 discussion",
+    "answers": {
+      "A": "Speech",
+      "B": "Language",
+      "C": "Translator",
+      "D": "Personalizer"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100461-exam-ai-900-topic-1-question-125-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to make the written press releases of your company available in a range of languages.\nWhich service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 126,
+    "title": "Exam AI-900 topic 1 question 126 discussion",
+    "answers": {
+      "A": "anomaly detection",
+      "B": "natural language processing",
+      "C": "computer vision",
+      "D": "knowledge mining"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/97360-exam-ai-900-topic-1-question-126-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have insurance claim reports that are stored as text.\nYou need to extract key terms from the reports to generate summaries.\nWhich type of AI workload should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 127,
+    "title": "Exam AI-900 topic 1 question 127 discussion",
+    "answers": {
+      "A": "Language service",
+      "B": "Translator",
+      "C": "Speech",
+      "D": "Personalizer"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/94118-exam-ai-900-topic-1-question-127-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to build an app that will read recipe instructions aloud to support users who have reduced vision.\nWhich version service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 128,
+    "title": "Exam AI-900 topic 1 question 128 discussion",
+    "answers": {
+      "A": "key phrase extraction",
+      "B": "sentiment analysis",
+      "C": "business logic",
+      "D": "active learning"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/56168-exam-ai-900-topic-1-question-128-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a webchat bot that provides responses from a QnA Maker knowledge base.\nYou need to ensure that the bot uses user feedback to improve the relevance of the responses over time.\nWhat should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 129,
+    "title": "Exam AI-900 topic 1 question 129 discussion",
+    "answers": {
+      "A": "Text Analytics",
+      "B": "Azure Bot Service",
+      "C": "Translator",
+      "D": "Form Recognizer"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/58052-exam-ai-900-topic-1-question-129-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a conversational AI solution that will communicate with users through multiple channels including email, Microsoft Teams, and webchat.\nWhich service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 130,
+    "title": "Exam AI-900 topic 1 question 130 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54572-exam-ai-900-topic-1-question-130-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image296.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0013500001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 131,
+    "title": "Exam AI-900 topic 1 question 131 discussion",
+    "answers": {
+      "A": "Generate the questions and answers from an existing webpage.",
+      "B": "Use automated machine learning to train a model based on a file that contains the questions.",
+      "C": "Manually enter the questions and answers.",
+      "D": "Connect the bot to the Cortana channel and ask questions by using Cortana.",
+      "E": "Import chit-chat content from a predefined data source."
+    },
+    "suggested_answer": "ACE",
+    "answer": "ACE",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38707-exam-ai-900-topic-1-question-131-discussion/",
+    "multiple_choice": true,
+    "question_text": "You need to provide content for a business chatbot that will help answer simple user queries.\nWhat are three ways to create question and answer text by using QnA Maker? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 132,
+    "title": "Exam AI-900 topic 1 question 132 discussion",
+    "answers": {
+      "A": "QnA Maker",
+      "B": "Text Analytics",
+      "C": "Computer Vision",
+      "D": "Language Understanding (LUIS)"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38708-exam-ai-900-topic-1-question-132-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a frequently asked questions (FAQ) PDF file.\nYou need to create a conversational support system based on the FAQ.\nWhich service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 133,
+    "title": "Exam AI-900 topic 1 question 133 discussion",
+    "answers": {
+      "A": "Text Analytics",
+      "B": "QnA Maker",
+      "C": "Azure Bot Service",
+      "D": "Translator"
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38711-exam-ai-900-topic-1-question-133-discussion/",
+    "multiple_choice": true,
+    "question_text": "You need to reduce the load on telephone operators by implementing a chatbot to answer simple questions with predefined answers.\nWhich two AI service should you use to achieve the goal? Each correct answer presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 134,
+    "title": "Exam AI-900 topic 1 question 134 discussion",
+    "answers": {
+      "A": "a smart device in the home that responds to questions such as ג€What will the weather be like today?ג€",
+      "B": "a website that uses a knowledge base to interactively respond to users' questions",
+      "C": "assembly line machinery that autonomously inserts headlamps into cars",
+      "D": "monitoring the temperature of machinery to turn on a fan when the temperature reaches a specific threshold"
+    },
+    "suggested_answer": "AB",
+    "answer": "AB",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/37118-exam-ai-900-topic-1-question-134-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which two scenarios are examples of a conversational AI workload? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 135,
+    "title": "Exam AI-900 topic 1 question 135 discussion",
+    "answers": {
+      "A": "a sentiment analysis solution",
+      "B": "a chatbot",
+      "C": "a machine learning model",
+      "D": "a computer vision application"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/65094-exam-ai-900-topic-1-question-135-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have the process shown in the following exhibit.\n//IMG//\n\nWhich type of AI solution is shown in the diagram?",
+    "answer_images": [],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0013900001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 136,
+    "title": "Exam AI-900 topic 1 question 136 discussion",
+    "answers": {
+      "A": "Custom Vision",
+      "B": "QnA Maker",
+      "C": "Translator Text",
+      "D": "Face"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38714-exam-ai-900-topic-1-question-136-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to develop a web-based AI solution for a customer support system. Users must be able to interact with a web app that will guide them to the best resource or answer.\nWhich service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 137,
+    "title": "Exam AI-900 topic 1 question 137 discussion",
+    "answers": {
+      "A": "QnA Maker",
+      "B": "Language Understanding (LUIS)",
+      "C": "Text Analytics",
+      "D": "Speech"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38715-exam-ai-900-topic-1-question-137-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which AI service should you use to create a bot from a frequently asked questions (FAQ) document?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 138,
+    "title": "Exam AI-900 topic 1 question 138 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38716-exam-ai-900-topic-1-question-138-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nTo complete the sentence, select the appropriate option in the answer area.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014100002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014100001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 139,
+    "title": "Exam AI-900 topic 1 question 139 discussion",
+    "answers": {
+      "A": "Determine whether reviews entered on a website for a concert are positive or negative, and then add a thumbs up or thumbs down emoji to the reviews.",
+      "B": "Translate into English questions entered by customers at a kiosk so that the appropriate person can call the customers back.",
+      "C": "Accept questions through email, and then route the email messages to the correct person based on the content of the message.",
+      "D": "From a website interface, answer common questions about scheduled events and ticket purchases for a music festival."
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38744-exam-ai-900-topic-1-question-139-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which scenario is an example of a webchat bot?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 140,
+    "title": "Exam AI-900 topic 1 question 140 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54962-exam-ai-900-topic-1-question-140-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014300002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014300001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 141,
+    "title": "Exam AI-900 topic 1 question 141 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/56167-exam-ai-900-topic-1-question-141-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image297.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014400001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 142,
+    "title": "Exam AI-900 topic 1 question 142 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/54198-exam-ai-900-topic-1-question-142-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image298.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014600001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 143,
+    "title": "Exam AI-900 topic 1 question 143 discussion",
+    "answers": {
+      "A": "a telephone answering service that has a pre-recorder message",
+      "B": "a chatbot that provides users with the ability to find answers on a website by themselves",
+      "C": "telephone voice menus to reduce the load on human resources",
+      "D": "a service that creates frequently asked questions (FAQ) documents by crawling public websites"
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38703-exam-ai-900-topic-1-question-143-discussion/",
+    "multiple_choice": true,
+    "question_text": "Which two scenarios are examples of a conversational AI workload? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 144,
+    "title": "Exam AI-900 topic 1 question 144 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/38704-exam-ai-900-topic-1-question-144-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014800002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014800001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 145,
+    "title": "Exam AI-900 topic 1 question 145 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/66205-exam-ai-900-topic-1-question-145-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015000001.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0014900001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 146,
+    "title": "Exam AI-900 topic 1 question 146 discussion",
+    "answers": {
+      "A": "Register customer purchases.",
+      "B": "Register customer complaints.",
+      "C": "Answer questions from multiple users simultaneously.",
+      "D": "Provide customers with return materials authorization (RMA) numbers."
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/111405-exam-ai-900-topic-1-question-146-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a knowledge base of frequently asked questions (FAQ).\nYou create a bot that uses the knowledge base to respond to customer requests.\nYou need to identify what the bot can perform without adding additional skills.\nWhat should you identify?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 147,
+    "title": "Exam AI-900 topic 1 question 147 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80357-exam-ai-900-topic-1-question-147-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image299.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015100001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 148,
+    "title": "Exam AI-900 topic 1 question 148 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80356-exam-ai-900-topic-1-question-148-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015300002.jpg"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015300001.jpg"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 149,
+    "title": "Exam AI-900 topic 1 question 149 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80360-exam-ai-900-topic-1-question-149-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\nSelect the answer that correctly completes the sentence.\nHot Area:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015400002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015400001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 150,
+    "title": "Exam AI-900 topic 1 question 150 discussion",
+    "answers": {
+      "A": "scaling numeric variables so that they are within a consistent numeric range",
+      "B": "creating training and validation datasets",
+      "C": "diverting records that have missing data",
+      "D": "selecting columns that must be included in the model"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/94544-exam-ai-900-topic-1-question-150-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have an Azure Machine Learning pipeline that contains a Split Data module.\nThe Split Data module outputs to a Train Model module and a Score Model module.\nWhat is the function of the Split Data module?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 151,
+    "title": "Exam AI-900 topic 1 question 151 discussion",
+    "answers": {
+      "A": "AI systems must use only publicly available data",
+      "B": "AI systems must be transparent and inclusive",
+      "C": "AI systems must keep personal details public",
+      "D": "AI systems must protect the interests of the company"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/95939-exam-ai-900-topic-1-question-151-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which statement is an example of a Microsoft responsible AI principle?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 152,
+    "title": "Exam AI-900 topic 1 question 152 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/86735-exam-ai-900-topic-1-question-152-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\nMatch the types of natural language processing workloads to the appropriate scenarios.\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\nNOTE: Each correct match is worth one point.\nSelect and Place:\n",
+    "answer_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015600002.png"
+    ],
+    "question_images": [
+      "https://www.examtopics.com/assets/media/exam-media/04234/0015600001.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 153,
+    "title": "Exam AI-900 topic 1 question 153 discussion",
+    "answers": {
+      "A": "Azure Machine Learning",
+      "B": "Azure Bot Service",
+      "C": "Language Service",
+      "D": "Translator"
+    },
+    "suggested_answer": "BC",
+    "answer": "BC",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/80127-exam-ai-900-topic-1-question-153-discussion/",
+    "multiple_choice": true,
+    "question_text": "You need to reduce the load on telephone operators by implementing a chatbot to answer simple questions with predefined answers.\nWhich two AI services should you use to achieve the goal? Each correct answers presents part of the solution.\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 154,
+    "title": "Exam AI-900 topic 1 question 154 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/103499-exam-ai-900-topic-1-question-154-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the principles of responsible AI to the appropriate descriptions.\n\nTo answer, drag the appropriate principle from the column on the left to its description on the right. Each principle may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image201.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image200.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 155,
+    "title": "Exam AI-900 topic 1 question 155 discussion",
+    "answers": {
+      "A": "Before you train a model.",
+      "B": "After you clean the data.",
+      "C": "Before you choose the type of model.",
+      "D": "After you test a model on the validation data."
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100462-exam-ai-900-topic-1-question-155-discussion/",
+    "multiple_choice": false,
+    "question_text": "During the process of Machine Learning, when should you review evaluation metrics.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 156,
+    "title": "Exam AI-900 topic 1 question 156 discussion",
+    "answers": {
+      "A": "reliability and safety",
+      "B": "privacy and security",
+      "C": "inclusiveness",
+      "D": "transparency"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100264-exam-ai-900-topic-1-question-156-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a natural language processing (NLP) model that was created by using data obtained without permission.\n\nWhich Microsoft principle for responsible AI does this breach?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 157,
+    "title": "Exam AI-900 topic 1 question 157 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106071-exam-ai-900-topic-1-question-157-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image203.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image202.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 158,
+    "title": "Exam AI-900 topic 1 question 158 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100131-exam-ai-900-topic-1-question-158-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\n\nMatch the services to the appropriate descriptions.\n\nTo answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image300.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image204.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 159,
+    "title": "Exam AI-900 topic 1 question 159 discussion",
+    "answers": {
+      "A": "A machine learning technique that classifies objects based on user supplied images.",
+      "B": "A machine learning technique that understands written and spoken language.",
+      "C": "A machine learning technique that classifies images based on their contents.",
+      "D": "A machine learning technique that analyzes data over time and identifies unusual changes."
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106072-exam-ai-900-topic-1-question-159-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which machine learning technique can be used for anomaly detection?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 160,
+    "title": "Exam AI-900 topic 1 question 160 discussion",
+    "answers": {
+      "A": "accountability",
+      "B": "reliability and safety",
+      "C": "transparency",
+      "D": "fairness"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106073-exam-ai-900-topic-1-question-160-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have an AI-based loan approval system.\n\nDuring testing, you discover that the system has a gender bias.\n\nWhich responsible Al principle does this violate?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 161,
+    "title": "Exam AI-900 topic 1 question 161 discussion",
+    "answers": {
+      "A": "Remove information about protected characteristics from the data before sampling.",
+      "B": "Take a training sample that is representative of the population in the United Kingdom.",
+      "C": "Create a training dataset that uses data from global insurers.",
+      "D": "Take a completely random training sample."
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/104996-exam-ai-900-topic-1-question-161-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a system to predict the prices of insurance for drivers in the United Kingdom.\n\nYou need to minimize bias in the system.\n\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 162,
+    "title": "Exam AI-900 topic 1 question 162 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106074-exam-ai-900-topic-1-question-162-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image207.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image206.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 163,
+    "title": "Exam AI-900 topic 1 question 163 discussion",
+    "answers": {
+      "A": "Load the dataset.",
+      "B": "Create a clustering model.",
+      "C": "Split the data into training and testing datasets.",
+      "D": "Create a classification model."
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/101262-exam-ai-900-topic-1-question-163-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a dataset.\n\nYou need to build an Azure Machine Learning classification model that will identify defective products.\n\nWhat should you do first?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 164,
+    "title": "Exam AI-900 topic 1 question 164 discussion",
+    "answers": {
+      "A": "a registered model",
+      "B": "a compute resource",
+      "C": "a Jupyter notebook"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105694-exam-ai-900-topic-1-question-164-discussion/",
+    "multiple_choice": false,
+    "question_text": "You use Azure Machine Learning designer to build a model pipeline.\n\nWhat should you create before you can run the pipeline?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 165,
+    "title": "Exam AI-900 topic 1 question 165 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106104-exam-ai-900-topic-1-question-165-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the tool to the Azure Machine Learning task.\n\nTo answer, drag the appropriate tool from the column on the left to its tasks on the right. Each tool may be used once, more than once, or not at all.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image209.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image208.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 166,
+    "title": "Exam AI-900 topic 1 question 166 discussion",
+    "answers": {
+      "A": "machine learning",
+      "B": "computer vision",
+      "C": "chatbot",
+      "D": "natural language processing (NLP)"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105488-exam-ai-900-topic-1-question-166-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to create a customer support solution to help customers access information. The solution must support email, phone, and live chat channels.\n\nWhich type of Al solution should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 167,
+    "title": "Exam AI-900 topic 1 question 167 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105695-exam-ai-900-topic-1-question-167-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the types of AI workloads to the appropriate scenarios.\n\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image211.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image210.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 168,
+    "title": "Exam AI-900 topic 1 question 168 discussion",
+    "answers": {
+      "A": "regression",
+      "B": "translation",
+      "C": "classification",
+      "D": "clustering"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/104630-exam-ai-900-topic-1-question-168-discussion/",
+    "multiple_choice": false,
+    "question_text": "Predicting how many vehicles will travel across a bridge on a give day is an example of _______.\n\nSelect the answer that correctly completes the sentence.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 169,
+    "title": "Exam AI-900 topic 1 question 169 discussion",
+    "answers": {
+      "A": "dataset",
+      "B": "labels",
+      "C": "variables"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100243-exam-ai-900-topic-1-question-169-discussion/",
+    "multiple_choice": false,
+    "question_text": "In a machine learning model, the data that is used as inputs are called ________.\n\nSelect the answer that correctly completes the sentence.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 170,
+    "title": "Exam AI-900 topic 1 question 170 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100571-exam-ai-900-topic-1-question-170-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image301.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image212.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 171,
+    "title": "Exam AI-900 topic 1 question 171 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106107-exam-ai-900-topic-1-question-171-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nYou plan to deploy an Azure Machine Learning model by using the Machine Learning designer.\n\nWhich four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image215.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image214.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 172,
+    "title": "Exam AI-900 topic 1 question 172 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105534-exam-ai-900-topic-1-question-172-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image217.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image216.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 173,
+    "title": "Exam AI-900 topic 1 question 173 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106109-exam-ai-900-topic-1-question-173-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image219.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image218.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 174,
+    "title": "Exam AI-900 topic 1 question 174 discussion",
+    "answers": {
+      "A": "Split the original dataset into a dataset for training and a dataset for testing. Use the testing dataset for evaluation.",
+      "B": "Use the original dataset for training and evaluation.",
+      "C": "Split the original dataset into a dataset for features and a dataset for labels. Use the features dataset for evaluation.",
+      "D": "Split the original dataset into a dataset for training and a dataset for testing. Use the training dataset for evaluation."
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/109657-exam-ai-900-topic-1-question-174-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to create a clustering model and evaluate the model by using Azure Machine Learning designer.\n\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 175,
+    "title": "Exam AI-900 topic 1 question 175 discussion",
+    "answers": {
+      "A": "analysis",
+      "B": "clustering",
+      "C": "regression"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105535-exam-ai-900-topic-1-question-175-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a dataset that contains the columns shown in the following table.\n\n//IMG//\n\n\nYou have a machine learning model that predicts the value of ColumnE based on the other numeric columns.\n\nWhich type of model is this?",
+    "answer_images": [],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image220.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 176,
+    "title": "Exam AI-900 topic 1 question 176 discussion",
+    "answers": {
+      "A": "Explain the model.",
+      "B": "Register the model.",
+      "C": "Register the training data.",
+      "D": "Provision an inference cluster."
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105134-exam-ai-900-topic-1-question-176-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to track multiple versions of a model that was trained by using Azure Machine Learning.\n\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 177,
+    "title": "Exam AI-900 topic 1 question 177 discussion",
+    "answers": {
+      "A": "clustering",
+      "B": "regression",
+      "C": "classification"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105697-exam-ai-900-topic-1-question-177-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to identify groups of rows with similar numeric values in a dataset.\n\nWhich type of machine learning should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 178,
+    "title": "Exam AI-900 topic 1 question 178 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100463-exam-ai-900-topic-1-question-178-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image302.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image221.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 179,
+    "title": "Exam AI-900 topic 1 question 179 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105698-exam-ai-900-topic-1-question-179-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image224.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image223.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 180,
+    "title": "Exam AI-900 topic 1 question 180 discussion",
+    "answers": {
+      "A": "Object detection",
+      "B": "Facial recognition",
+      "C": "Image classification",
+      "D": "Optical character recognition (OCR)"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106113-exam-ai-900-topic-1-question-180-discussion/",
+    "multiple_choice": false,
+    "question_text": "A historian can use ________ to digitize newspaper articles.\n\nSelect the answer that correctly completes the sentence.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 181,
+    "title": "Exam AI-900 topic 1 question 181 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100259-exam-ai-900-topic-1-question-181-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image303.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image225.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 182,
+    "title": "Exam AI-900 topic 1 question 182 discussion",
+    "answers": {
+      "A": "Form Recognizer",
+      "B": "Custom Vision",
+      "C": "Language",
+      "D": "Computer Vision"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100707-exam-ai-900-topic-1-question-182-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to create a model that labels a collection of your personal digital photographs.\n\nWhich Azure Cognitive Services service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 183,
+    "title": "Exam AI-900 topic 1 question 183 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106353-exam-ai-900-topic-1-question-183-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image228.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image227.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 184,
+    "title": "Exam AI-900 topic 1 question 184 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105537-exam-ai-900-topic-1-question-184-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image230.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image229.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 185,
+    "title": "Exam AI-900 topic 1 question 185 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106116-exam-ai-900-topic-1-question-185-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the Azure Cognitive Services to the appropriate actions.\n\nTo answer, drag the appropriate service from the column on the left to its action on the right. Each service may be used once, more than once, or not at all.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image232.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image231.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 186,
+    "title": "Exam AI-900 topic 1 question 186 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100263-exam-ai-900-topic-1-question-186-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image304.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image233.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 187,
+    "title": "Exam AI-900 topic 1 question 187 discussion",
+    "answers": {
+      "A": "Computer Vision Spatial Analysis",
+      "B": "Custom Vision object detection",
+      "C": "Computer Vision Image Analysis",
+      "D": "Custom Vision classification"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100613-exam-ai-900-topic-1-question-187-discussion/",
+    "multiple_choice": false,
+    "question_text": "Your company manufactures widgets.\n\nYou have 1,000 digital photos of the widgets.\n\nYou need to identify the location of the widgets within the photos.\n\nWhat should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 188,
+    "title": "Exam AI-900 topic 1 question 188 discussion",
+    "answers": {
+      "A": "facial detection",
+      "B": "optical character recognition (OCR)",
+      "C": "image classification",
+      "D": "object detection"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100614-exam-ai-900-topic-1-question-188-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to convert handwritten notes into digital text.\n\nWhich type of computer vision should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 189,
+    "title": "Exam AI-900 topic 1 question 189 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105634-exam-ai-900-topic-1-question-189-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image236.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image235.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 190,
+    "title": "Exam AI-900 topic 1 question 190 discussion",
+    "answers": {
+      "A": "face detection",
+      "B": "image classification",
+      "C": "object detection",
+      "D": "optical character recognition (OCR)"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106118-exam-ai-900-topic-1-question-190-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to develop a mobile app for employees to scan and store their expenses while travelling.\n\nWhich type of computer vision should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 191,
+    "title": "Exam AI-900 topic 1 question 191 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100267-exam-ai-900-topic-1-question-191-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image238.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image237.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 192,
+    "title": "Exam AI-900 topic 1 question 192 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100268-exam-ai-900-topic-1-question-192-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nTo complete the sentence, select the appropriate option in the answer area.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image305.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image239.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 193,
+    "title": "Exam AI-900 topic 1 question 193 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/103520-exam-ai-900-topic-1-question-193-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the Azure Cognitive Services to the appropriate AI workloads.\n\nTo answer, drag the appropriate service from the column on the left to its workload on the right. Each service may be used once, more than once, or not at all.\n\nNOTE: Each correct match is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image242.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image241.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 194,
+    "title": "Exam AI-900 topic 1 question 194 discussion",
+    "answers": {
+      "A": "Custom Vision",
+      "B": "Form Recognizer",
+      "C": "Face",
+      "D": "Computer Vision"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100615-exam-ai-900-topic-1-question-194-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to implement a pre-built solution that will identify well-known brands in digital photographs.\n\nWhich Azure Cognitive Services service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 195,
+    "title": "Exam AI-900 topic 1 question 195 discussion",
+    "answers": {
+      "A": "Analyze video content",
+      "B": "Generate speech",
+      "C": "Classify email messages as work-related or personal.",
+      "D": "Classify images"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100616-exam-ai-900-topic-1-question-195-discussion/",
+    "multiple_choice": false,
+    "question_text": "Natural language processing can be used to __________.\n\nSelect the answer that correctly completes the sentence.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 196,
+    "title": "Exam AI-900 topic 1 question 196 discussion",
+    "answers": {
+      "A": "Language Service",
+      "B": "Azure Bot Service",
+      "C": "Form Recognizer",
+      "D": "Anomaly Detector"
+    },
+    "suggested_answer": "AB",
+    "answer": "AB",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105549-exam-ai-900-topic-1-question-196-discussion/",
+    "multiple_choice": true,
+    "question_text": "You plan to develop a bot that will enable users to query a knowledge base by using natural language processing.\n\nWhich two services should you include in the solution? Each correct answer presents part of the solution.\n\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 197,
+    "title": "Exam AI-900 topic 1 question 197 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105635-exam-ai-900-topic-1-question-197-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image244.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image243.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 198,
+    "title": "Exam AI-900 topic 1 question 198 discussion",
+    "answers": {
+      "A": "sentiment analysis",
+      "B": "speech recognition",
+      "C": "key phrase extraction",
+      "D": "entity recognition"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/104513-exam-ai-900-topic-1-question-198-discussion/",
+    "multiple_choice": false,
+    "question_text": "An app that analyzes social media posts to identify their tone is an example of which type of natural language processing (NLP) workload?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 199,
+    "title": "Exam AI-900 topic 1 question 199 discussion",
+    "answers": {
+      "A": "sentiment analysis",
+      "B": "named entity recognition",
+      "C": "translation",
+      "D": "language modeling"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105423-exam-ai-900-topic-1-question-199-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building a chatbot that will use natural language processing (NLP) to perform the following actions based on the text input of a user.\n\n• Accept customer orders.\n• Retrieve support documents.\n• Retrieve order status updates.\n\nWhich type of NLP should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 200,
+    "title": "Exam AI-900 topic 1 question 200 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/106119-exam-ai-900-topic-1-question-200-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the Azure Cognitive Services service to the appropriate actions.\n\nTo answer, drag the appropriate service from the column on the left to its action on the right. Each service may be used once, more than once, or not at all.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image246.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image245.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 201,
+    "title": "Exam AI-900 topic 1 question 201 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100577-exam-ai-900-topic-1-question-201-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image306.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image247.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 202,
+    "title": "Exam AI-900 topic 1 question 202 discussion",
+    "answers": {
+      "A": "key phrase extraction",
+      "B": "speech recognition",
+      "C": "language modeling",
+      "D": "translation"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100280-exam-ai-900-topic-1-question-202-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a website that includes customer reviews.\n\nYou need to store the reviews in English and present the reviews to users in their respective language by recognizing each user's geographical location.\n\nWhich type of natural language processing workload should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 203,
+    "title": "Exam AI-900 topic 1 question 203 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105636-exam-ai-900-topic-1-question-203-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image250.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image249.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 204,
+    "title": "Exam AI-900 topic 1 question 204 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100545-exam-ai-900-topic-1-question-204-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image307.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image251.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 205,
+    "title": "Exam AI-900 topic 1 question 205 discussion",
+    "answers": {
+      "A": "speech recognition",
+      "B": "sentiment analysis",
+      "C": "key phrase extraction",
+      "D": "entity recognition"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/100546-exam-ai-900-topic-1-question-205-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a solution that analyzes social media posts to extract the mentions of city names and the city names discussed most frequently.\n\nWhich type of natural language processing (NLP) workload does the solution use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 206,
+    "title": "Exam AI-900 topic 1 question 206 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105208-exam-ai-900-topic-1-question-206-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image254.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image253.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 207,
+    "title": "Exam AI-900 topic 1 question 207 discussion",
+    "answers": {
+      "A": "language detection",
+      "B": "sentiment analysis",
+      "C": "entity recognition",
+      "D": "key phrase extraction"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/105637-exam-ai-900-topic-1-question-207-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a solution that uses the Language service.\n\nYou need to identify the main talking points in a collection of documents.\n\nWhich type of natural language processing should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 208,
+    "title": "Exam AI-900 topic 1 question 208 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/111594-exam-ai-900-topic-1-question-208-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP -\n\nYou are designing a system that will generate insurance quotes automatically.\n\nMatch the Microsoft responsible AI principles to the appropriate requirements.\n\nTo answer, drag the appropriate principle from the column on the left to its requirement on the right. Each principle may be used once, more than once, or not at all.\n\nNOTE: Each correct match is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image308.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image255.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 209,
+    "title": "Exam AI-900 topic 1 question 209 discussion",
+    "answers": {
+      "A": "regular expression",
+      "B": "machine-learned",
+      "C": "list",
+      "D": "Pattern.any"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/111595-exam-ai-900-topic-1-question-209-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which type of natural language processing (NLP) entity is used to identify a phone number?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 210,
+    "title": "Exam AI-900 topic 1 question 210 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116971-exam-ai-900-topic-1-question-210-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nTo complete the sentence, select the appropriate option in the answer area.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image258.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image257.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 211,
+    "title": "Exam AI-900 topic 1 question 211 discussion",
+    "answers": {
+      "A": "accountability",
+      "B": "fairness",
+      "C": "privacy and security",
+      "D": "inclusiveness"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116970-exam-ai-900-topic-1-question-211-discussion/",
+    "multiple_choice": false,
+    "question_text": "Your company is exploring the use of voice recognition technologies in its smart home devices. The company wants to identify any barriers that might unintentionally leave out specific user groups.\n\nThis is an example of which Microsoft guiding principle for responsible AI?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 212,
+    "title": "Exam AI-900 topic 1 question 212 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/114008-exam-ai-900-topic-1-question-212-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nYou have a large dataset that contains motor vehicle sales data.\n\nYou need to train an automated machine learning (automated ML) model to predict vehicle sale values based on the type of vehicle.\n\nWhich task should you select? To answer, select the appropriate task in the answer area.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image260.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image259.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 213,
+    "title": "Exam AI-900 topic 1 question 213 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/113224-exam-ai-900-topic-1-question-213-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image309.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image261.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 214,
+    "title": "Exam AI-900 topic 1 question 214 discussion",
+    "answers": {
+      "A": "Custom Vision",
+      "B": "Form Recognizer",
+      "C": "Face",
+      "D": "Language"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/118540-exam-ai-900-topic-1-question-214-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to convert receipts into transactions in a spreadsheet. The spreadsheet must include the date of the transaction, the merchant, the total spent, and any taxes paid.\n\nWhich Azure AI service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 215,
+    "title": "Exam AI-900 topic 1 question 215 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116972-exam-ai-900-topic-1-question-215-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image264.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image263.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 216,
+    "title": "Exam AI-900 topic 1 question 216 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/129325-exam-ai-900-topic-1-question-216-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image266.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image265.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 217,
+    "title": "Exam AI-900 topic 1 question 217 discussion",
+    "answers": {
+      "A": "optical character recognition (OCR)",
+      "B": "semantic segmentation",
+      "C": "facial detection and facial recognition",
+      "D": "image analysis"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124247-exam-ai-900-topic-1-question-217-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a security system that analyzes images from CCTV to provide authorized staff entry into restricted area.\n\nWhich type of computer vision does the system use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 218,
+    "title": "Exam AI-900 topic 1 question 218 discussion",
+    "answers": {
+      "A": "assigning the color pixels in an image to object names",
+      "B": "detecting inconsistencies and anomalies in a stream of data",
+      "C": "creating visual representations of numerical data",
+      "D": "creating photorealistic images by using three-dimensional models",
+      "E": "describing the contents of an image"
+    },
+    "suggested_answer": "AE",
+    "answer": "AE",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/119201-exam-ai-900-topic-1-question-218-discussion/",
+    "multiple_choice": true,
+    "question_text": "For which two workloads can you use computer vision? Each correct answer presents a complete solution.\n\nNOTE: Each correct selection is worth one point.",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 219,
+    "title": "Exam AI-900 topic 1 question 219 discussion",
+    "answers": {
+      "A": "Custom Vision classification",
+      "B": "Custom Vision object detection",
+      "C": "Computer Vision Read",
+      "D": "Computer Vision optical character recognition (OCR)"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124248-exam-ai-900-topic-1-question-219-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have an app that identifies the coordinates of a product in an image of a supermarket shelf.\n\nWhich service does the app use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 220,
+    "title": "Exam AI-900 topic 1 question 220 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/114024-exam-ai-900-topic-1-question-220-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT -\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image310.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image267.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 221,
+    "title": "Exam AI-900 topic 1 question 221 discussion",
+    "answers": {
+      "A": "Face",
+      "B": "Form Recognizer",
+      "C": "Language",
+      "D": "Computer Vision"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116582-exam-ai-900-topic-1-question-221-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to build an image tagging solution for social media that tags images of your friends automatically.\n\nWhich Azure Cognitive Services service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 222,
+    "title": "Exam AI-900 topic 1 question 222 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/134033-exam-ai-900-topic-1-question-222-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image270.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image269.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 223,
+    "title": "Exam AI-900 topic 1 question 223 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/129327-exam-ai-900-topic-1-question-223-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nYou have an app that identifies birds in images. The app performs the following tasks:\n\n• Identifies the location of the birds in the image\n• Identifies the species of the birds in the image\n\nWhich type of computer vision does each task use? To answer, select the appropriate options in the answer area.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image272.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image271.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 224,
+    "title": "Exam AI-900 topic 1 question 224 discussion",
+    "answers": {
+      "A": "speech recognition and entity recognition",
+      "B": "speech recognition and language modeling",
+      "C": "translation and key phrase extraction",
+      "D": "translation and sentiment analysis"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124249-exam-ai-900-topic-1-question-224-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a solution that reads manuscripts in different languages and categorizes the manuscripts based on topic.\n\nWhich types of natural language processing (NLP) workloads does the solution use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 225,
+    "title": "Exam AI-900 topic 1 question 225 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/139399-exam-ai-900-topic-1-question-225-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image274.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image273.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 226,
+    "title": "Exam AI-900 topic 1 question 226 discussion",
+    "answers": {
+      "A": "language modeling",
+      "B": "speech recognition",
+      "C": "speech synthesis",
+      "D": "translation"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/114549-exam-ai-900-topic-1-question-226-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have 100 instructional videos that do NOT contain any audio. Each instructional video has a script.\n\nYou need to generate a narration audio file for each video based on the script.\n\nWhich type of workload should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 227,
+    "title": "Exam AI-900 topic 1 question 227 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/118037-exam-ai-900-topic-1-question-227-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image276.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image275.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 228,
+    "title": "Exam AI-900 topic 1 question 228 discussion",
+    "answers": {
+      "A": "Azure Cognitive Search",
+      "B": "Translator",
+      "C": "Language",
+      "D": "Speech"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/112678-exam-ai-900-topic-1-question-228-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which AI service can you use to extract intent from a user input such as “Call me back later”?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 229,
+    "title": "Exam AI-900 topic 1 question 229 discussion",
+    "answers": {
+      "A": "Export the model",
+      "B": "Add utterances to the None intent",
+      "C": "Create a prebuilt task entity",
+      "D": "Create a new model"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/112939-exam-ai-900-topic-1-question-229-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building a Language Understanding model for an e-commerce business.\n\nYou need to ensure that the model detects when utterances are outside the intended scope of the model.\n\nWhat should you do?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 230,
+    "title": "Exam AI-900 topic 1 question 230 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/114011-exam-ai-900-topic-1-question-230-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image278.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image277.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 231,
+    "title": "Exam AI-900 topic 1 question 231 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116750-exam-ai-900-topic-1-question-231-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nFor each of the following statement, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image280.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image279.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 232,
+    "title": "Exam AI-900 topic 1 question 232 discussion",
+    "answers": {
+      "A": "ensuring that opportunities are allocated equally to all applicants",
+      "B": "helping users understand the decisions made by an AI system",
+      "C": "ensuring that developers are accountable for the solutions they create",
+      "D": "ensuring that the privileged data of users is stored in a secure manner"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116581-exam-ai-900-topic-1-question-232-discussion/",
+    "multiple_choice": false,
+    "question_text": "What is an example of the Microsoft responsible AI principle of transparency?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 233,
+    "title": "Exam AI-900 topic 1 question 233 discussion",
+    "answers": {
+      "A": "an Azure Machine Learning model",
+      "B": "the Translator service",
+      "C": "a Form Recognizer model",
+      "D": "Azure Bot Service"
+    },
+    "suggested_answer": "D",
+    "answer": "D",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/137372-exam-ai-900-topic-1-question-233-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to provide customers with the ability to query the status of orders by using phones, social media, or digital assistants.\n\nWhat should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 234,
+    "title": "Exam AI-900 topic 1 question 234 discussion",
+    "answers": {
+      "A": "Azure Bot Service",
+      "B": "Azure Cognitive Search",
+      "C": "Speech",
+      "D": "Language service"
+    },
+    "suggested_answer": "A",
+    "answer": "A",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/126636-exam-ai-900-topic-1-question-234-discussion/",
+    "multiple_choice": false,
+    "question_text": "You plan to build a conversational AI solution that can be surfaced in Microsoft Teams, Microsoft Cortana, and Amazon Alexa.\n\nWhich service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 235,
+    "title": "Exam AI-900 topic 1 question 235 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/116018-exam-ai-900-topic-1-question-235-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image282.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image281.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 236,
+    "title": "Exam AI-900 topic 1 question 236 discussion",
+    "answers": {
+      "A": "Custom Vision",
+      "B": "Conversational Language Understanding",
+      "C": "Form Recognizer"
+    },
+    "suggested_answer": "C",
+    "answer": "C",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124252-exam-ai-900-topic-1-question-236-discussion/",
+    "multiple_choice": false,
+    "question_text": "Which Azure Cognitive Services service can be used to identify documents that contain sensitive information?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 237,
+    "title": "Exam AI-900 topic 1 question 237 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124253-exam-ai-900-topic-1-question-237-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image284.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image283.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 238,
+    "title": "Exam AI-900 topic 1 question 238 discussion",
+    "answers": {
+      "A": "knowledge mining",
+      "B": "natural language processing",
+      "C": "computer vision",
+      "D": "anomaly detection"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/121534-exam-ai-900-topic-1-question-238-discussion/",
+    "multiple_choice": false,
+    "question_text": "A smart device that responds to the question “What is the stock price of Contoso. Ltd.?” is an example of which AI workload?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 239,
+    "title": "Exam AI-900 topic 1 question 239 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124254-exam-ai-900-topic-1-question-239-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the machine learning models to the appropriate descriptions.\n\nTo answer, drag the appropriate model from the column on the left to its description on the right. Each model may be used once, more than once, or not at all.\n\nNOTE: Each correct match is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image286.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image285.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 240,
+    "title": "Exam AI-900 topic 1 question 240 discussion",
+    "answers": {
+      "A": "Form Recognizer",
+      "B": "Custom Vision",
+      "C": "Face",
+      "D": "Computer Vision"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/122286-exam-ai-900-topic-1-question-240-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are building a tool that will process images from retail stores and identify the products of competitors.\n\nThe solution must be trained on images provided by your company.\n\nWhich Azure AI service should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 241,
+    "title": "Exam AI-900 topic 1 question 241 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/129460-exam-ai-900-topic-1-question-241-discussion/",
+    "multiple_choice": false,
+    "question_text": "HOTSPOT\n-\n\nSelect the answer that correctly completes the sentence.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image288.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image287.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 242,
+    "title": "Exam AI-900 topic 1 question 242 discussion",
+    "answers": {
+      "A": "classification",
+      "B": "regression",
+      "C": "clustering"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124256-exam-ai-900-topic-1-question-242-discussion/",
+    "multiple_choice": false,
+    "question_text": "Predicting agricultural yields based on weather conditions and soil quality measurements is an example of which type of machine learning model?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 243,
+    "title": "Exam AI-900 topic 1 question 243 discussion",
+    "answers": {
+      "A": "object detection",
+      "B": "optical character recognition (OCR)",
+      "C": "image classification",
+      "D": "facial recognition"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/121511-exam-ai-900-topic-1-question-243-discussion/",
+    "multiple_choice": false,
+    "question_text": "You need to identify street names based on street signs in photographs.\n\nWhich type of computer vision should you use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 244,
+    "title": "Exam AI-900 topic 1 question 244 discussion",
+    "answers": {},
+    "suggested_answer": "",
+    "answer": "",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124257-exam-ai-900-topic-1-question-244-discussion/",
+    "multiple_choice": false,
+    "question_text": "DRAG DROP\n-\n\nMatch the types of computer vision workloads to the appropriate scenarios.\n\nTo answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.\n\nNOTE: Each correct selection is worth one point.\n\n",
+    "answer_images": [
+      "https://img.examtopics.com/ai-900/image290.png"
+    ],
+    "question_images": [
+      "https://img.examtopics.com/ai-900/image289.png"
+    ]
+  },
+  {
+    "topic_number": 1,
+    "question_number": 245,
+    "title": "Exam AI-900 topic 1 question 245 discussion",
+    "answers": {
+      "A": "AI enrichment for Azure Search capabilities",
+      "B": "Computer Vision Image Analysis capabilities",
+      "C": "Custom Vision Image Classification capabilities",
+      "D": "Language Understanding capabilities"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/121512-exam-ai-900-topic-1-question-245-discussion/",
+    "multiple_choice": false,
+    "question_text": "You have a bot that identifies the brand names of products in images of supermarket shelves.\n\nWhich service does the bot use?",
+    "answer_images": [],
+    "question_images": []
+  },
+  {
+    "topic_number": 1,
+    "question_number": 246,
+    "title": "Exam AI-900 topic 1 question 246 discussion",
+    "answers": {
+      "A": "Translator",
+      "B": "Language",
+      "C": "Azure Cognitive Search",
+      "D": "Speech"
+    },
+    "suggested_answer": "B",
+    "answer": "B",
+    "link": "https://www.examtopics.com/discussions/microsoft/view/124833-exam-ai-900-topic-1-question-246-discussion/",
+    "multiple_choice": false,
+    "question_text": "You are developing a chatbot solution in Azure.\n\nWhich service should you use to determine a user’s intent?",
+    "answer_images": [],
+    "question_images": []
+  }
+]
