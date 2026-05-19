@@ -32,7 +32,7 @@ const getCorsOrigins = () => {
     return origins.length > 0 ? origins : ['https://examtopics-practice.onrender.com'];
   } else {
     // Development: Allow localhost
-    return ['http://localhost:3000', 'http://localhost:3001'];
+    return ['http://localhost:3000', 'http://localhost:3001', 'null', 'http://localhost:5500'];
   }
 };
 
@@ -86,11 +86,13 @@ const authRoutes = require('./routes/authRoutes');
 const progressRoutes = require('./routes/progressRoutes');
 const reportRoutes = require('./routes/reportRoutes');
 const examRoutes = require('./routes/examRoutes');
+const adminRoutes = require('./routes/adminRoutes');
 
 app.use('/auth', authRoutes);
 app.use('/progress', progressRoutes);
 app.use('/report', reportRoutes);
 app.use('/api', examRoutes);
+app.use('/admin', adminRoutes);
 
 // 404 handler
 app.use('*', (req, res) => {

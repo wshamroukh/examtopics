@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ExamTopics Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3f;
+    --accent: #6c63ff;
+    --accent2: #ff6584;
+    --accent3: #43e97b;
+    --text: #e8e8f0;
+    --text2: #8888aa;
+    --danger: #ff4757;
+    --warning: #ffa502;
+    --success: #2ed573;
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'Syne', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .app { position: relative; z-index: 1; display: flex; min-height: 100vh; }
+
+  /* Sidebar */
+  .sidebar {
+    width: 260px;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    top: 0; left: 0;
+  }
+
+  .logo {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .logo-title {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: var(--text);
+  }
+
+  .logo-title span { color: var(--accent); }
+
+  .logo-sub {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text2);
+    margin-top: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .nav { padding: 16px 12px; flex: 1; }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text2);
+    transition: all 0.15s;
+    margin-bottom: 4px;
+    border: 1px solid transparent;
+  }
+
+  .nav-item:hover { background: var(--surface2); color: var(--text); }
+  .nav-item.active { background: var(--surface2); color: var(--accent); border-color: var(--border); }
+  .nav-item .icon { font-size: 16px; width: 20px; text-align: center; }
+
+  .sidebar-footer {
+    padding: 16px;
+    border-top: 1px solid var(--border);
+  }
+
+  .backend-url {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text2);
+    word-break: break-all;
+  }
+
+  .backend-url-label { color: var(--accent3); margin-bottom: 4px; }
+
+  .url-input-row { display: flex; gap: 6px; margin-top: 8px; }
+
+  .url-input {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text);
+    outline: none;
+  }
+
+  .url-input:focus { border-color: var(--accent); }
+
+  /* Main content */
+  .main {
+    margin-left: 260px;
+    flex: 1;
+    padding: 32px;
+    min-height: 100vh;
+  }
+
+  /* Page header */
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  .page-title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+
+  .page-title span { color: var(--accent); }
+
+  .page-subtitle {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--text2);
+    margin-top: 4px;
+  }
+
+  /* Stats bar */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+  }
+
+  .stat-card:nth-child(2)::before { background: var(--accent2); }
+  .stat-card:nth-child(3)::before { background: var(--accent3); }
+  .stat-card:nth-child(4)::before { background: var(--warning); }
+
+  .stat-value {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: var(--text);
+  }
+
+  .stat-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: all 0.15s;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .btn-primary { background: var(--accent); color: white; }
+  .btn-primary:hover { background: #7c74ff; transform: translateY(-1px); }
+  .btn-danger { background: var(--danger); color: white; }
+  .btn-danger:hover { background: #ff6070; }
+  .btn-ghost { background: transparent; color: var(--text2); border: 1px solid var(--border); }
+  .btn-ghost:hover { background: var(--surface2); color: var(--text); }
+  .btn-success { background: var(--success); color: #0a0a0f; }
+  .btn-success:hover { background: #3fff80; }
+  .btn-sm { padding: 6px 12px; font-size: 12px; }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+  /* Table */
+  .table-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .table-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+  }
+
+  .search-input {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--text);
+    outline: none;
+    width: 280px;
+    transition: border-color 0.15s;
+  }
+
+  .search-input:focus { border-color: var(--accent); }
+  .search-input::placeholder { color: var(--text2); }
+
+  table { width: 100%; border-collapse: collapse; }
+
+  th {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text2);
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+  }
+
+  td {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    vertical-align: middle;
+  }
+
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .badge-aws { background: rgba(255, 153, 0, 0.15); color: #ff9900; }
+  .badge-microsoft { background: rgba(0, 120, 212, 0.15); color: #0078d4; }
+  .badge-japanese { background: rgba(255, 101, 132, 0.15); color: #ff6584; }
+  .badge-other { background: rgba(108, 99, 255, 0.15); color: var(--accent); }
+  .badge-beginner { background: rgba(46, 213, 115, 0.15); color: var(--success); }
+  .badge-intermediate { background: rgba(255, 165, 2, 0.15); color: var(--warning); }
+  .badge-advanced { background: rgba(255, 71, 87, 0.15); color: var(--danger); }
+
+  .actions { display: flex; gap: 6px; }
+
+  /* Modal */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 720px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 28px 20px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 1;
+  }
+
+  .modal-title { font-size: 20px; font-weight: 800; letter-spacing: -0.5px; }
+  .modal-close { background: none; border: none; color: var(--text2); font-size: 20px; cursor: pointer; padding: 4px; }
+  .modal-close:hover { color: var(--text); }
+
+  .modal-body { padding: 24px 28px; }
+  .modal-footer {
+    padding: 16px 28px 24px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    border-top: 1px solid var(--border);
+  }
+
+  /* Form */
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-full { grid-column: 1 / -1; }
+
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+
+  .form-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .form-input, .form-select, .form-textarea {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.15s;
+    width: 100%;
+  }
+
+  .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--accent); }
+  .form-textarea { resize: vertical; min-height: 80px; font-family: var(--mono); font-size: 12px; }
+  .form-select option { background: var(--surface2); }
+
+  .form-hint {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text2);
+    margin-top: 2px;
+  }
+
+  /* File upload */
+  .file-drop {
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+
+  .file-drop:hover, .file-drop.dragover {
+    border-color: var(--accent);
+    background: rgba(108, 99, 255, 0.05);
+  }
+
+  .file-drop input[type=file] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+
+  .file-drop-icon { font-size: 32px; margin-bottom: 8px; }
+  .file-drop-text { font-size: 14px; font-weight: 600; color: var(--text2); }
+  .file-drop-hint { font-family: var(--mono); font-size: 11px; color: var(--text2); margin-top: 4px; }
+  .file-name { font-family: var(--mono); font-size: 12px; color: var(--accent3); margin-top: 8px; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 2px; margin-bottom: 20px; background: var(--bg); border-radius: 8px; padding: 4px; }
+
+  .tab {
+    flex: 1;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    color: var(--text2);
+    transition: all 0.15s;
+    border: none;
+    background: none;
+  }
+
+  .tab.active { background: var(--surface); color: var(--text); }
+
+  /* Toast */
+  .toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .toast {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    animation: slideIn 0.2s ease;
+    min-width: 280px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }
+
+  .toast.success { border-left: 3px solid var(--success); }
+  .toast.error { border-left: 3px solid var(--danger); }
+  .toast.info { border-left: 3px solid var(--accent); }
+
+  @keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+
+  /* Loading */
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    color: var(--text2);
+    font-family: var(--mono);
+    font-size: 13px;
+    gap: 10px;
+  }
+
+  .spinner {
+    width: 20px; height: 20px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .empty {
+    text-align: center;
+    padding: 60px;
+    color: var(--text2);
+    font-family: var(--mono);
+    font-size: 13px;
+  }
+
+  .empty-icon { font-size: 40px; margin-bottom: 12px; }
+
+  /* Progress bar */
+  .progress-bar {
+    background: var(--border);
+    border-radius: 4px;
+    height: 6px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
+
+  /* Section divider */
+  .section-divider {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text2);
+    margin: 20px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* Page visibility */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* Confirm dialog */
+  .confirm-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .confirm-overlay.open { display: flex; }
+
+  .confirm-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .confirm-icon { font-size: 40px; margin-bottom: 16px; }
+  .confirm-title { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+  .confirm-message { color: var(--text2); font-size: 14px; margin-bottom: 24px; }
+  .confirm-actions { display: flex; gap: 10px; justify-content: center; }
+
+  /* Responsive tweaks */
+  @media (max-width: 900px) {
+    .stats-bar { grid-template-columns: 1fr 1fr; }
+    .form-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-title">Exam<span>Topics</span></div>
+      <div class="logo-sub">Admin Portal</div>
+    </div>
+    <nav class="nav">
+      <div class="nav-item active" onclick="showPage('exams')">
+        <span class="icon">📚</span> Exams
+      </div>
+      <div class="nav-item" onclick="showPage('upload')">
+        <span class="icon">⬆️</span> Upload & Seed
+      </div>
+      <div class="nav-item" onclick="showPage('questions')">
+        <span class="icon">❓</span> Questions
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="backend-url">
+        <div class="backend-url-label">// BACKEND URL</div>
+        <div class="url-input-row">
+          <input class="url-input" id="backendUrlInput" value="http://localhost:3001" placeholder="http://localhost:3001">
+          <button class="btn btn-ghost btn-sm" onclick="saveBackendUrl()">Set</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- EXAMS PAGE -->
+    <div class="page active" id="page-exams">
+      <div class="page-header">
+        <div>
+          <div class="page-title">All <span>Exams</span></div>
+          <div class="page-subtitle">// manage your exam library</div>
+        </div>
+        <div style="display:flex;gap:10px">
+          <button class="btn btn-ghost" onclick="loadExams()">↻ Refresh</button>
+          <button class="btn btn-primary" onclick="openCreateModal()">+ New Exam</button>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-bar" id="statsBar">
+        <div class="stat-card"><div class="stat-value" id="statTotal">—</div><div class="stat-label">Total Exams</div></div>
+        <div class="stat-card"><div class="stat-value" id="statQuestions">—</div><div class="stat-label">Total Questions</div></div>
+        <div class="stat-card"><div class="stat-value" id="statCategories">—</div><div class="stat-label">Categories</div></div>
+        <div class="stat-card"><div class="stat-value" id="statDifficulties">—</div><div class="stat-label">Difficulty Levels</div></div>
+      </div>
+
+      <!-- Table -->
+      <div class="table-container">
+        <div class="table-toolbar">
+          <input class="search-input" placeholder="🔍 Search exams..." oninput="filterExams(this.value)" id="examSearch">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font-family:var(--mono);font-size:11px;color:var(--text2)" id="examCount"></span>
+          </div>
+        </div>
+        <div id="examTableContainer">
+          <div class="loading"><div class="spinner"></div> Loading exams...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UPLOAD PAGE -->
+    <div class="page" id="page-upload">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Upload <span>&amp; Seed</span></div>
+          <div class="page-subtitle">// import exam data into mongodb</div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+
+        <!-- Upload exams.json manifest -->
+        <div class="table-container" style="padding:24px">
+          <div style="font-size:16px;font-weight:800;margin-bottom:4px">📋 Exam Manifest</div>
+          <div style="font-family:var(--mono);font-size:11px;color:var(--text2);margin-bottom:20px">Upload exams.json to register exams</div>
+
+          <div class="file-drop" id="manifestDrop">
+            <input type="file" accept=".json" onchange="handleManifestFile(event)">
+            <div class="file-drop-icon">📄</div>
+            <div class="file-drop-text">Drop exams.json here</div>
+            <div class="file-drop-hint">or click to browse</div>
+            <div class="file-name" id="manifestFileName"></div>
+          </div>
+
+          <div id="manifestPreview" style="margin-top:16px"></div>
+
+          <button class="btn btn-primary" style="width:100%;margin-top:16px;justify-content:center" onclick="seedFromManifest()" id="seedManifestBtn" disabled>
+            ⚡ Seed Exams from Manifest
+          </button>
+        </div>
+
+        <!-- Upload individual exam JSON -->
+        <div class="table-container" style="padding:24px">
+          <div style="font-size:16px;font-weight:800;margin-bottom:4px">📦 Exam Questions</div>
+          <div style="font-family:var(--mono);font-size:11px;color:var(--text2);margin-bottom:20px">Upload individual exam JSON file with questions</div>
+
+          <div class="file-drop" id="examFileDrop">
+            <input type="file" accept=".json" onchange="handleExamFile(event)">
+            <div class="file-drop-icon">🗂️</div>
+            <div class="file-drop-text">Drop exam JSON here</div>
+            <div class="file-drop-hint">e.g. ai-900.json, aws_saa_c03.json</div>
+            <div class="file-name" id="examFileName"></div>
+          </div>
+
+          <div style="margin-top:16px">
+            <div class="form-group">
+              <label class="form-label">Exam Code (to link questions to)</label>
+              <input class="form-input" id="examCodeForUpload" placeholder="e.g. ai-900" list="examCodesList">
+              <datalist id="examCodesList"></datalist>
+            </div>
+          </div>
+
+          <div id="examFilePreview" style="margin-top:12px"></div>
+
+          <button class="btn btn-success" style="width:100%;margin-top:16px;justify-content:center" onclick="seedExamQuestions()" id="seedQuestionsBtn" disabled>
+            ⚡ Seed Questions
+          </button>
+        </div>
+      </div>
+
+      <!-- Seed log -->
+      <div class="table-container" style="margin-top:20px;padding:24px">
+        <div style="font-size:16px;font-weight:800;margin-bottom:16px">📟 Seed Log</div>
+        <div id="seedLog" style="font-family:var(--mono);font-size:12px;color:var(--text2);min-height:80px">
+          <div style="color:var(--text2)">// No operations yet</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUESTIONS PAGE -->
+    <div class="page" id="page-questions">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Browse <span>Questions</span></div>
+          <div class="page-subtitle">// view questions by exam</div>
+        </div>
+      </div>
+
+      <div style="display:flex;gap:12px;margin-bottom:20px;align-items:flex-end">
+        <div class="form-group" style="flex:1;max-width:320px">
+          <label class="form-label">Select Exam</label>
+          <select class="form-select" id="questionExamSelect" onchange="loadQuestions()">
+            <option value="">-- choose an exam --</option>
+          </select>
+        </div>
+        <button class="btn btn-ghost" onclick="loadQuestions()">↻ Load</button>
+      </div>
+
+      <div class="table-container">
+        <div id="questionTableContainer">
+          <div class="empty"><div class="empty-icon">❓</div>Select an exam to browse questions</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- Create/Edit Exam Modal -->
+<div class="modal-overlay" id="examModal">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" id="examModalTitle">New Exam</div>
+      <button class="modal-close" onclick="closeExamModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="tabs">
+        <button class="tab active" onclick="switchTab('metadata')">📋 Metadata</button>
+        <button class="tab" onclick="switchTab('names')">🌐 Names & Descriptions</button>
+      </div>
+
+      <!-- Metadata tab -->
+      <div id="tab-metadata">
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Exam Code *</label>
+            <input class="form-input" id="fCode" placeholder="e.g. ai-900">
+            <div class="form-hint">// unique identifier, no spaces</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Slug</label>
+            <input class="form-input" id="fSlug" placeholder="e.g. microsoft-azure-ai-fundamentals">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Category</label>
+            <select class="form-select" id="fCategory">
+              <option>AWS</option>
+              <option>Microsoft</option>
+              <option>Japanese</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Difficulty</label>
+            <select class="form-select" id="fDifficulty">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Estimated Time (minutes)</label>
+            <input class="form-input" id="fEstimatedTime" type="number" placeholder="60">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Question Count</label>
+            <input class="form-input" id="fQuestionCount" type="number" placeholder="0">
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label">Tags (comma separated)</label>
+            <input class="form-input" id="fTags" placeholder="AWS, Cloud, Architecture">
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label">File Path</label>
+            <input class="form-input" id="fFile" placeholder="exams/ai-900.json">
+          </div>
+        </div>
+      </div>
+
+      <!-- Names tab -->
+      <div id="tab-names" style="display:none">
+        <div class="section-divider">English</div>
+        <div class="form-grid">
+          <div class="form-group form-full">
+            <label class="form-label">Name (EN)</label>
+            <input class="form-input" id="fNameEn" placeholder="Microsoft Azure AI Fundamentals">
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label">Description (EN)</label>
+            <textarea class="form-textarea" id="fDescEn" placeholder="Validate foundational AI and machine learning concepts on Azure"></textarea>
+          </div>
+        </div>
+        <div class="section-divider">Vietnamese</div>
+        <div class="form-grid">
+          <div class="form-group form-full">
+            <label class="form-label">Name (VI)</label>
+            <input class="form-input" id="fNameVi" placeholder="...">
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label">Description (VI)</label>
+            <textarea class="form-textarea" id="fDescVi"></textarea>
+          </div>
+        </div>
+        <div class="section-divider">Japanese</div>
+        <div class="form-grid">
+          <div class="form-group form-full">
+            <label class="form-label">Name (JA)</label>
+            <input class="form-input" id="fNameJa" placeholder="...">
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label">Description (JA)</label>
+            <textarea class="form-textarea" id="fDescJa"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeExamModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="saveExam()" id="saveExamBtn">Save Exam</button>
+    </div>
+  </div>
+</div>
+
+<!-- Confirm Delete Modal -->
+<div class="confirm-overlay" id="confirmOverlay">
+  <div class="confirm-box">
+    <div class="confirm-icon">🗑️</div>
+    <div class="confirm-title">Delete Exam?</div>
+    <div class="confirm-message" id="confirmMessage">This will permanently delete the exam and all its questions from MongoDB.</div>
+    <div class="confirm-actions">
+      <button class="btn btn-ghost" onclick="closeConfirm()">Cancel</button>
+      <button class="btn btn-danger" onclick="confirmDeleteAction()">Delete</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+let allExams = [];
+let editingCode = null;
+let pendingDeleteCode = null;
+let manifestData = null;
+let examFileData = null;
+let activeTab = 'metadata';
+
+// ── Backend URL ───────────────────────────────────────────────────────────────
+function getBackendUrl() {
+  return localStorage.getItem('adminBackendUrl') || 'http://localhost:3001';
+}
+
+function saveBackendUrl() {
+  const val = document.getElementById('backendUrlInput').value.trim().replace(/\/$/, '');
+  localStorage.setItem('adminBackendUrl', val);
+  toast('Backend URL updated', 'success');
+  loadExams();
+  populateExamSelect();
+}
+
+// ── API helpers ───────────────────────────────────────────────────────────────
+async function api(path, options = {}) {
+  // Route write operations through /admin (no auth required)
+  const method = (options.method || 'GET').toUpperCase();
+  const isWrite = ['POST', 'PUT', 'DELETE'].includes(method);
+  const basePath = isWrite ? path.replace('/api/', '/admin/') : path;
+  const url = getBackendUrl() + basePath;
+  const res = await fetch(url, {
+    headers: { 'Content-Type': 'application/json', ...options.headers },
+    ...options
+  });
+  return res.json();
+}
+
+// ── Navigation ────────────────────────────────────────────────────────────────
+function showPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  event.currentTarget.classList.add('active');
+  if (name === 'exams') loadExams();
+  if (name === 'upload') populateExamSelect();
+  if (name === 'questions') populateQuestionExamSelect();
+}
+
+// ── Exams Page ────────────────────────────────────────────────────────────────
+async function loadExams() {
+  document.getElementById('examTableContainer').innerHTML =
+    '<div class="loading"><div class="spinner"></div> Fetching exams...</div>';
+  try {
+    const data = await api('/api/exams');
+    allExams = data.exams || [];
+    renderExamsTable(allExams);
+    updateStats(allExams);
+  } catch (e) {
+    document.getElementById('examTableContainer').innerHTML =
+      `<div class="empty"><div class="empty-icon">⚠️</div>Failed to connect to backend.<br>Check the URL in the sidebar.</div>`;
+  }
+}
+
+function updateStats(exams) {
+  document.getElementById('statTotal').textContent = exams.length;
+  document.getElementById('statQuestions').textContent =
+    exams.reduce((s, e) => s + (e.questionCount || 0), 0).toLocaleString();
+  document.getElementById('statCategories').textContent =
+    new Set(exams.map(e => e.category)).size;
+  document.getElementById('statDifficulties').textContent =
+    new Set(exams.map(e => e.difficulty)).size;
+}
+
+function getCategoryBadge(cat) {
+  const map = { AWS: 'aws', Microsoft: 'microsoft', Japanese: 'japanese' };
+  const cls = map[cat] || 'other';
+  return `<span class="badge badge-${cls}">${cat || '—'}</span>`;
+}
+
+function getDiffBadge(diff) {
+  const cls = (diff || '').toLowerCase();
+  return `<span class="badge badge-${cls}">${diff || '—'}</span>`;
+}
+
+function getExamName(exam) {
+  if (typeof exam.name === 'object') return exam.name.en || Object.values(exam.name)[0];
+  return exam.name || '—';
+}
+
+function renderExamsTable(exams) {
+  document.getElementById('examCount').textContent = `${exams.length} exam${exams.length !== 1 ? 's' : ''}`;
+  if (exams.length === 0) {
+    document.getElementById('examTableContainer').innerHTML =
+      '<div class="empty"><div class="empty-icon">📭</div>No exams found. Upload some!</div>';
+    return;
+  }
+  document.getElementById('examTableContainer').innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Difficulty</th>
+          <th>Questions</th>
+          <th>Time</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${exams.map(e => `
+          <tr>
+            <td><span style="font-family:var(--mono);font-size:12px;color:var(--accent)">${e.code}</span></td>
+            <td style="max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${getExamName(e)}">${getExamName(e)}</td>
+            <td>${getCategoryBadge(e.category)}</td>
+            <td>${getDiffBadge(e.difficulty)}</td>
+            <td><span style="font-family:var(--mono);color:var(--accent3)">${(e.questionCount || 0).toLocaleString()}</span></td>
+            <td><span style="font-family:var(--mono);color:var(--text2)">${e.estimatedTime || '—'}m</span></td>
+            <td>
+              <div class="actions">
+                <button class="btn btn-ghost btn-sm" onclick="openEditModal('${e.code}')">✏️ Edit</button>
+                <button class="btn btn-danger btn-sm" onclick="openDeleteConfirm('${e.code}')">🗑️</button>
+              </div>
+            </td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>`;
+}
+
+function filterExams(q) {
+  const filtered = allExams.filter(e => {
+    const name = getExamName(e).toLowerCase();
+    const code = (e.code || '').toLowerCase();
+    const cat = (e.category || '').toLowerCase();
+    return name.includes(q.toLowerCase()) || code.includes(q.toLowerCase()) || cat.includes(q.toLowerCase());
+  });
+  renderExamsTable(filtered);
+}
+
+// ── Create / Edit Modal ───────────────────────────────────────────────────────
+function openCreateModal() {
+  editingCode = null;
+  document.getElementById('examModalTitle').textContent = 'New Exam';
+  clearForm();
+  document.getElementById('fCode').disabled = false;
+  switchTab('metadata');
+  document.getElementById('examModal').classList.add('open');
+}
+
+function openEditModal(code) {
+  const exam = allExams.find(e => e.code === code);
+  if (!exam) return;
+  editingCode = code;
+  document.getElementById('examModalTitle').textContent = `Edit — ${code}`;
+  populateForm(exam);
+  document.getElementById('fCode').disabled = true;
+  switchTab('metadata');
+  document.getElementById('examModal').classList.add('open');
+}
+
+function closeExamModal() {
+  document.getElementById('examModal').classList.remove('open');
+}
+
+function switchTab(tab) {
+  activeTab = tab;
+  document.getElementById('tab-metadata').style.display = tab === 'metadata' ? 'block' : 'none';
+  document.getElementById('tab-names').style.display = tab === 'names' ? 'block' : 'none';
+  document.querySelectorAll('.tab').forEach((t, i) => {
+    t.classList.toggle('active', (i === 0 && tab === 'metadata') || (i === 1 && tab === 'names'));
+  });
+}
+
+function clearForm() {
+  ['fCode','fSlug','fFile','fTags','fNameEn','fDescEn','fNameVi','fDescVi','fNameJa','fDescJa'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('fEstimatedTime').value = '';
+  document.getElementById('fQuestionCount').value = '';
+  document.getElementById('fCategory').value = 'AWS';
+  document.getElementById('fDifficulty').value = 'Beginner';
+}
+
+function populateForm(exam) {
+  document.getElementById('fCode').value = exam.code || '';
+  document.getElementById('fSlug').value = exam.slug || '';
+  document.getElementById('fFile').value = exam.file || '';
+  document.getElementById('fCategory').value = exam.category || 'AWS';
+  document.getElementById('fDifficulty').value = exam.difficulty || 'Beginner';
+  document.getElementById('fEstimatedTime').value = exam.estimatedTime || '';
+  document.getElementById('fQuestionCount').value = exam.questionCount || '';
+  document.getElementById('fTags').value = (exam.tags || []).join(', ');
+
+  const name = exam.name || {};
+  const desc = exam.description || {};
+  document.getElementById('fNameEn').value = typeof name === 'string' ? name : (name.en || '');
+  document.getElementById('fNameVi').value = typeof name === 'string' ? name : (name.vi || '');
+  document.getElementById('fNameJa').value = typeof name === 'string' ? name : (name.ja || '');
+  document.getElementById('fDescEn').value = typeof desc === 'string' ? desc : (desc.en || '');
+  document.getElementById('fDescVi').value = typeof desc === 'string' ? desc : (desc.vi || '');
+  document.getElementById('fDescJa').value = typeof desc === 'string' ? desc : (desc.ja || '');
+}
+
+function buildExamPayload() {
+  const nameEn = document.getElementById('fNameEn').value.trim();
+  const nameVi = document.getElementById('fNameVi').value.trim();
+  const nameJa = document.getElementById('fNameJa').value.trim();
+  const descEn = document.getElementById('fDescEn').value.trim();
+  const descVi = document.getElementById('fDescVi').value.trim();
+  const descJa = document.getElementById('fDescJa').value.trim();
+  const tags = document.getElementById('fTags').value.split(',').map(t => t.trim()).filter(Boolean);
+
+  return {
+    code: document.getElementById('fCode').value.trim(),
+    slug: document.getElementById('fSlug').value.trim(),
+    file: document.getElementById('fFile').value.trim(),
+    category: document.getElementById('fCategory').value,
+    difficulty: document.getElementById('fDifficulty').value,
+    estimatedTime: parseInt(document.getElementById('fEstimatedTime').value) || 0,
+    questionCount: parseInt(document.getElementById('fQuestionCount').value) || 0,
+    tags,
+    name: { en: nameEn, vi: nameVi || nameEn, ja: nameJa || nameEn },
+    description: { en: descEn, vi: descVi || descEn, ja: descJa || descEn },
+  };
+}
+
+async function saveExam() {
+  const payload = buildExamPayload();
+  if (!payload.code) { toast('Exam code is required', 'error'); return; }
+  if (!payload.name.en) { toast('English name is required', 'error'); switchTab('names'); return; }
+  if (!payload.description.en) { toast('English description is required', 'error'); switchTab('names'); return; }
+
+  const btn = document.getElementById('saveExamBtn');
+  btn.disabled = true;
+  btn.textContent = 'Saving...';
+
+  try {
+    let res;
+    if (editingCode) {
+      res = await api(`/api/exams/${editingCode}`, {
+        method: 'PUT',
+        body: JSON.stringify(payload)
+      });
+    } else {
+      res = await api('/api/exams', {
+        method: 'POST',
+        body: JSON.stringify(payload)
+      });
+    }
+
+    if (res.success) {
+      toast(editingCode ? 'Exam updated!' : 'Exam created!', 'success');
+      closeExamModal();
+      loadExams();
+    } else {
+      toast(res.message || res.error || 'Failed to save', 'error');
+    }
+  } catch (e) {
+    toast('Network error: ' + e.message, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Save Exam';
+  }
+}
+
+// ── Delete ────────────────────────────────────────────────────────────────────
+function openDeleteConfirm(code) {
+  pendingDeleteCode = code;
+  document.getElementById('confirmMessage').textContent =
+    `Delete exam "${code}" and all its questions from MongoDB? This cannot be undone.`;
+  document.getElementById('confirmOverlay').classList.add('open');
+}
+
+function closeConfirm() {
+  document.getElementById('confirmOverlay').classList.remove('open');
+  pendingDeleteCode = null;
+}
+
+async function confirmDeleteAction() {
+  if (!pendingDeleteCode) return;
+  try {
+    const res = await api(`/api/exams/${pendingDeleteCode}`, { method: 'DELETE' });
+    if (res.success) {
+      toast(`Exam "${pendingDeleteCode}" deleted`, 'success');
+      closeConfirm();
+      loadExams();
+    } else {
+      toast(res.error || 'Delete failed', 'error');
+    }
+  } catch (e) {
+    toast('Network error', 'error');
+  }
+}
+
+// ── Upload / Seed Page ────────────────────────────────────────────────────────
+function handleManifestFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  document.getElementById('manifestFileName').textContent = '📄 ' + file.name;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      manifestData = JSON.parse(e.target.result);
+      const count = Array.isArray(manifestData) ? manifestData.length : 0;
+      document.getElementById('manifestPreview').innerHTML = `
+        <div style="font-family:var(--mono);font-size:11px;color:var(--accent3)">
+          ✓ Parsed ${count} exams from manifest
+        </div>
+        <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>`;
+      document.getElementById('seedManifestBtn').disabled = false;
+    } catch (err) {
+      document.getElementById('manifestPreview').innerHTML =
+        `<div style="color:var(--danger);font-family:var(--mono);font-size:11px">✗ Invalid JSON: ${err.message}</div>`;
+      manifestData = null;
+    }
+  };
+  reader.readAsText(file);
+}
+
+function handleExamFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  // Auto-detect exam code from filename
+  const guessedCode = file.name.replace('.json', '').replace(/_/g, '-');
+  if (!document.getElementById('examCodeForUpload').value) {
+    document.getElementById('examCodeForUpload').value = guessedCode;
+  }
+  document.getElementById('examFileName').textContent = '📦 ' + file.name;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      examFileData = JSON.parse(e.target.result);
+      const questions = Array.isArray(examFileData) ? examFileData : (examFileData.questions || []);
+      document.getElementById('examFilePreview').innerHTML = `
+        <div style="font-family:var(--mono);font-size:11px;color:var(--accent3)">
+          ✓ Parsed ${questions.length} questions
+        </div>`;
+      document.getElementById('seedQuestionsBtn').disabled = false;
+    } catch (err) {
+      document.getElementById('examFilePreview').innerHTML =
+        `<div style="color:var(--danger);font-family:var(--mono);font-size:11px">✗ Invalid JSON: ${err.message}</div>`;
+      examFileData = null;
+    }
+  };
+  reader.readAsText(file);
+}
+
+function logSeed(msg, type = 'info') {
+  const colors = { info: 'var(--text2)', success: 'var(--accent3)', error: 'var(--danger)', warn: 'var(--warning)' };
+  const log = document.getElementById('seedLog');
+  const line = document.createElement('div');
+  line.style.color = colors[type] || colors.info;
+  line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+  log.appendChild(line);
+  log.scrollTop = log.scrollHeight;
+}
+
+async function seedFromManifest() {
+  if (!manifestData) return;
+  const btn = document.getElementById('seedManifestBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Seeding...';
+  const exams = Array.isArray(manifestData) ? manifestData : [];
+  logSeed(`Starting seed of ${exams.length} exams from manifest...`);
+
+  let success = 0, failed = 0;
+  for (const examMeta of exams) {
+    const code = examMeta.id || examMeta.code;
+    const payload = {
+      code,
+      name: examMeta.name,
+      slug: examMeta.slug,
+      file: examMeta.file,
+      description: examMeta.description,
+      category: examMeta.category,
+      difficulty: examMeta.difficulty,
+      estimatedTime: parseInt(examMeta.estimatedTime) || 0,
+      tags: examMeta.tags || [],
+      questionCount: examMeta.questionCount || 0,
+    };
+
+    try {
+      // Try update first, then create
+      let res = await api(`/api/exams/${code}`, { method: 'PUT', body: JSON.stringify(payload) });
+      if (!res.success && res.error === 'Exam not found') {
+        res = await api('/api/exams', { method: 'POST', body: JSON.stringify(payload) });
+      }
+      if (res.success) {
+        logSeed(`✓ ${code}`, 'success');
+        success++;
+      } else {
+        logSeed(`✗ ${code}: ${res.message || res.error}`, 'error');
+        failed++;
+      }
+    } catch (e) {
+      logSeed(`✗ ${code}: ${e.message}`, 'error');
+      failed++;
+    }
+  }
+
+  logSeed(`Done! ${success} seeded, ${failed} failed.`, success > 0 ? 'success' : 'error');
+  btn.disabled = false;
+  btn.textContent = '⚡ Seed Exams from Manifest';
+  toast(`Seeded ${success}/${exams.length} exams`, success === exams.length ? 'success' : 'info');
+  loadExams();
+}
+
+async function seedExamQuestions() {
+  if (!examFileData) return;
+  const code = document.getElementById('examCodeForUpload').value.trim();
+  if (!code) { toast('Enter an exam code first', 'error'); return; }
+
+  const btn = document.getElementById('seedQuestionsBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Seeding...';
+
+  const questions = Array.isArray(examFileData) ? examFileData : (examFileData.questions || []);
+  logSeed(`Seeding ${questions.length} questions for exam "${code}"...`);
+
+  // Send as update to existing exam with questions array
+  try {
+    const res = await api(`/api/exams/${code}`, {
+      method: 'PUT',
+      body: JSON.stringify({ questions })
+    });
+    if (res.success) {
+      logSeed(`✓ Questions seeded for ${code}`, 'success');
+      toast(`Questions seeded for ${code}`, 'success');
+    } else {
+      // Exam might not exist yet — create it
+      logSeed(`Exam not found, trying to create...`, 'warn');
+      const createRes = await api('/api/exams', {
+        method: 'POST',
+        body: JSON.stringify({
+          code,
+          name: { en: code },
+          description: { en: code },
+          questions
+        })
+      });
+      if (createRes.success) {
+        logSeed(`✓ Created exam + questions for ${code}`, 'success');
+        toast(`Created exam + ${questions.length} questions`, 'success');
+      } else {
+        logSeed(`✗ ${createRes.message || createRes.error}`, 'error');
+        toast('Failed: ' + (createRes.message || createRes.error), 'error');
+      }
+    }
+  } catch (e) {
+    logSeed(`✗ Network error: ${e.message}`, 'error');
+    toast('Network error', 'error');
+  }
+
+  btn.disabled = false;
+  btn.textContent = '⚡ Seed Questions';
+  loadExams();
+}
+
+function populateExamSelect() {
+  if (allExams.length === 0) {
+    api('/api/exams').then(data => {
+      allExams = data.exams || [];
+      fillExamCodesList();
+    }).catch(() => {});
+  } else {
+    fillExamCodesList();
+  }
+}
+
+function fillExamCodesList() {
+  const dl = document.getElementById('examCodesList');
+  dl.innerHTML = allExams.map(e => `<option value="${e.code}">${e.code} — ${getExamName(e)}</option>`).join('');
+}
+
+// ── Questions Page ────────────────────────────────────────────────────────────
+function populateQuestionExamSelect() {
+  const sel = document.getElementById('questionExamSelect');
+  if (allExams.length === 0) {
+    api('/api/exams').then(data => {
+      allExams = data.exams || [];
+      sel.innerHTML = '<option value="">-- choose an exam --</option>' +
+        allExams.map(e => `<option value="${e.code}">${e.code} — ${getExamName(e)}</option>`).join('');
+    });
+  } else {
+    sel.innerHTML = '<option value="">-- choose an exam --</option>' +
+      allExams.map(e => `<option value="${e.code}">${e.code} — ${getExamName(e)}</option>`).join('');
+  }
+}
+
+async function loadQuestions() {
+  const code = document.getElementById('questionExamSelect').value;
+  if (!code) return;
+  document.getElementById('questionTableContainer').innerHTML =
+    '<div class="loading"><div class="spinner"></div> Loading questions...</div>';
+  try {
+    const data = await api(`/api/questions/${code}?limit=50`);
+    const questions = data.data || [];
+    if (questions.length === 0) {
+      document.getElementById('questionTableContainer').innerHTML =
+        '<div class="empty"><div class="empty-icon">📭</div>No questions found for this exam.</div>';
+      return;
+    }
+    document.getElementById('questionTableContainer').innerHTML = `
+      <div style="padding:12px 20px;font-family:var(--mono);font-size:11px;color:var(--text2);border-bottom:1px solid var(--border)">
+        Showing ${questions.length} of ${data.pagination?.total || questions.length} questions
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>Q#</th>
+            <th>Question</th>
+            <th>Answer</th>
+            <th>Images</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${questions.map(q => `
+            <tr>
+              <td><span style="font-family:var(--mono);font-size:12px;color:var(--text2)">T${q.topic_number || 1}</span></td>
+              <td><span style="font-family:var(--mono);font-size:12px;color:var(--accent)">#${q.question_number}</span></td>
+              <td style="max-width:400px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px" title="${(q.question_text || '').replace(/"/g, '&quot;')}">
+                ${(q.question_text || '—').substring(0, 100)}${(q.question_text || '').length > 100 ? '…' : ''}
+              </td>
+              <td><span style="font-family:var(--mono);font-size:12px;color:var(--accent3)">${q.suggested_answer || '—'}</span></td>
+              <td><span style="font-family:var(--mono);font-size:11px;color:var(--text2)">${((q.question_images || []).length + (q.answer_images || []).length) || 0}</span></td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>`;
+  } catch (e) {
+    document.getElementById('questionTableContainer').innerHTML =
+      `<div class="empty"><div class="empty-icon">⚠️</div>Failed to load questions</div>`;
+  }
+}
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+function toast(msg, type = 'info') {
+  const icons = { success: '✓', error: '✗', info: 'ℹ' };
+  const container = document.getElementById('toastContainer');
+  const el = document.createElement('div');
+  el.className = `toast ${type}`;
+  el.innerHTML = `<span>${icons[type] || 'ℹ'}</span> ${msg}`;
+  container.appendChild(el);
+  setTimeout(() => el.remove(), 3500);
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  const saved = localStorage.getItem('adminBackendUrl');
+  if (saved) document.getElementById('backendUrlInput').value = saved;
+
+  // Drag and drop for file drops
+  document.querySelectorAll('.file-drop').forEach(zone => {
+    zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
+    zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+    zone.addEventListener('drop', e => { e.preventDefault(); zone.classList.remove('dragover'); });
+  });
+
+  loadExams();
+});
+</script>
+</body>
+</html>
