@@ -12,6 +12,7 @@ import os
 import requests
 import time
 import glob
+import argparse
 from urllib.parse import urlparse
 from pathlib import Path
 import logging
@@ -257,23 +258,61 @@ class MultiImageDownloader:
                 logging.info(f"  - {url}")
 
 def main():
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(
+        description="Download images for a specific exam JSON file"
+    )
+
+    parser.add_argument(
+        "exam_id",
+        help="Exam ID (example: ai-900, az-104, sc-200)"
+    )
+
+    args = parser.parse_args()
+
+    exam_id = args.exam_id.lower()
+
     # Configuration
     json_folder = "../batch/json"
     base_output_folder = "../batch/img"
-    
+
     # Validate input folder exists
     if not os.path.exists(json_folder):
         logging.error(f"JSON folder not found: {json_folder}")
         return
-    
-    # Create downloader and start download
+
+    # Build expected JSON file path
+    json_file = os.path.join(json_folder, f"{exam_id}.json")
+
+    if not os.path.exists(json_file):
+        logging.error(f"Exam JSON file not found: {json_file}")
+        return
+
+    # Create downloader
     downloader = MultiImageDownloader(json_folder, base_output_folder)
-    success = downloader.process_all_json_files()
-    
-    if success:
-        logging.info("Download process completed!")
-    else:
-        logging.error("Download process failed!")
+
+    # Load only the requested exam JSON
+    logging.info(f"Processing exam: {exam_id}")
+
+    data = downloader.load_json_data(json_file)
+
+    if not data:
+        logging.error("Failed to load JSON data")
+        return
+
+    # Extract images grouped by folder
+    images_by_folder = downloader.extract_image_urls_by_folder(data)
+
+    logging.info(f"Found {len(images_by_folder)} image folders")
+
+    # Download images
+    for folder_key, image_urls in images_by_folder.items():
+        downloader.download_images_for_folder(folder_key, image_urls)
+
+    downloader.print_summary()
+
+    logging.info("Download process completed!")
+
 
 if __name__ == "__main__":
     main()
