@@ -15,7 +15,7 @@ import { ProgressBar } from './ProgressBar';
 import { QuestionList, QuestionListRef } from './QuestionList';
 import { ThemeToggle } from './ThemeToggle';
 
-const PAGE_SIZE_OPTIONS = [5, 8, 10, 15];
+const PAGE_SIZE_OPTIONS = [5, 8, 10, 15, 20, 30, 40, 50];
 const PAGE_SIZE_KEY = 'examtopics_page_size';
 
 const ExamPage: React.FC = () => {
@@ -583,7 +583,7 @@ const ExamPage: React.FC = () => {
               Questions per page:
             </span>
             <div className="flex gap-2">
-              {[5, 8, 10, 15].map(size => (
+              {[5, 8, 10, 15, 20, 30, 40, 50].map(size => (
                 <button
                   key={size}
                   onClick={() => handlePageSizeChange(size)}
