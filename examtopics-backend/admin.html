@@ -1404,22 +1404,45 @@ function populateQuestionExamSelect() {
   }
 }
 
-async function loadQuestions() {
+let questionCurrentPage = 1;
+const questionPageSize = 50;
+
+async function loadQuestions(page = 1) {
   const code = document.getElementById('questionExamSelect').value;
   if (!code) return;
+  questionCurrentPage = page;
+
   document.getElementById('questionTableContainer').innerHTML =
     '<div class="loading"><div class="spinner"></div> Loading questions...</div>';
   try {
-    const data = await api(`/api/questions/${code}?limit=50`);
+    const data = await api(`/admin/questions/${code}?page=${page}&limit=${questionPageSize}`);
     const questions = data.data || [];
+    const total = data.pagination?.total || questions.length;
+    const totalPages = Math.ceil(total / questionPageSize);
+
     if (questions.length === 0) {
       document.getElementById('questionTableContainer').innerHTML =
         '<div class="empty"><div class="empty-icon">📭</div>No questions found for this exam.</div>';
       return;
     }
+
+    const start = (page - 1) * questionPageSize + 1;
+    const end = Math.min(page * questionPageSize, total);
+
+    // Build pagination controls
+    const paginationHtml = totalPages > 1 ? `
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;padding:16px;border-top:1px solid var(--border)">
+        <button class="btn btn-ghost btn-sm" onclick="loadQuestions(${page - 1})" ${page === 1 ? 'disabled' : ''}>← Prev</button>
+        <span style="font-family:var(--mono);font-size:12px;color:var(--text2)">
+          Page <strong style="color:var(--text)">${page}</strong> of <strong style="color:var(--text)">${totalPages}</strong>
+        </span>
+        <button class="btn btn-ghost btn-sm" onclick="loadQuestions(${page + 1})" ${page === totalPages ? 'disabled' : ''}>Next →</button>
+      </div>` : '';
+
     document.getElementById('questionTableContainer').innerHTML = `
-      <div style="padding:12px 20px;font-family:var(--mono);font-size:11px;color:var(--text2);border-bottom:1px solid var(--border)">
-        Showing ${questions.length} of ${data.pagination?.total || questions.length} questions
+      <div style="padding:12px 20px;font-family:var(--mono);font-size:11px;color:var(--text2);border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+        <span>Showing <strong style="color:var(--text)">${start}–${end}</strong> of <strong style="color:var(--text)">${total}</strong> questions</span>
+        <span style="color:var(--accent)">Page ${page}/${totalPages}</span>
       </div>
       <table>
         <thead>
@@ -1441,11 +1464,15 @@ async function loadQuestions() {
                 ${(q.question_text || '—').substring(0, 100)}${(q.question_text || '').length > 100 ? '…' : ''}
               </td>
               <td><span style="font-family:var(--mono);font-size:12px;color:var(--accent3)">${q.suggested_answer || '—'}</span></td>
-              <td><button class="btn btn-ghost btn-sm" onclick="editQuestion('${code}', ${q.topic_number || 1}, ${q.question_number})">✏️</button></td>
+              <td><span style="font-family:var(--mono);font-size:11px;color:var(--text2)">${((q.question_images || []).length + (q.answer_images || []).length) || 0}</span></td>
+              <td>
+                <button class="btn btn-ghost btn-sm" onclick="editQuestion('${code}', ${q.topic_number || 1}, ${q.question_number})">✏️</button>
+              </td>
             </tr>
           `).join('')}
         </tbody>
-      </table>`;
+      </table>
+      ${paginationHtml}`;
   } catch (e) {
     document.getElementById('questionTableContainer').innerHTML =
       `<div class="empty"><div class="empty-icon">⚠️</div>Failed to load questions</div>`;
