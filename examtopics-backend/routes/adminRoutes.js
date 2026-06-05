@@ -76,4 +76,26 @@ router.get('/questions/:code', async (req, res, next) => {
   } catch (e) { next(e); }
 });
 
+// PUT update a specific question's answer
+router.put('/questions/:examId/:topicNumber/:questionNumber', async (req, res, next) => {
+  try {
+    const Question = require('../models/Question');
+    const { examId, topicNumber, questionNumber } = req.params;
+    const update = req.body;
+
+    const question = await Question.findOneAndUpdate(
+      {
+        examId,
+        topic_number: parseInt(topicNumber),
+        question_number: parseInt(questionNumber)
+      },
+      { $set: update },
+      { new: true }
+    );
+
+    if (!question) return res.status(404).json({ success: false, error: 'Question not found' });
+    res.json({ success: true, question });
+  } catch (e) { next(e); }
+});
+
 module.exports = router;
