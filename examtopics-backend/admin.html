@@ -947,6 +947,36 @@ async function loadExams() {
   }
 }
 
+// ── Update Answer ────────────────────────────────────────────────────────────────
+async function editQuestion(examId, topicNumber, questionNumber) {
+  const newAnswer = prompt(
+    `Question #${questionNumber} (Topic ${topicNumber})\nEnter correct answer (e.g. A, B, C, D or combination like "A, C"):`,
+  );
+  if (newAnswer === null) return; // cancelled
+  const answer = newAnswer.trim().toUpperCase();
+  if (!answer) return;
+
+  try {
+    const res = await fetch(
+      `${getBackendUrl()}/admin/questions/${examId}/${topicNumber}/${questionNumber}`,
+      {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ suggested_answer: answer })
+      }
+    );
+    const data = await res.json();
+    if (data.success) {
+      toast(`Q#${questionNumber} answer updated to "${answer}"`, 'success');
+      loadQuestions(); // refresh table
+    } else {
+      toast(data.error || 'Update failed', 'error');
+    }
+  } catch (e) {
+    toast('Network error: ' + e.message, 'error');
+  }
+}
+
 function updateStats(exams) {
   document.getElementById('statTotal').textContent = exams.length;
   document.getElementById('statQuestions').textContent =
@@ -1399,6 +1429,7 @@ async function loadQuestions() {
             <th>Question</th>
             <th>Answer</th>
             <th>Images</th>
+            <th>Edit</th>
           </tr>
         </thead>
         <tbody>
@@ -1410,7 +1441,7 @@ async function loadQuestions() {
                 ${(q.question_text || '—').substring(0, 100)}${(q.question_text || '').length > 100 ? '…' : ''}
               </td>
               <td><span style="font-family:var(--mono);font-size:12px;color:var(--accent3)">${q.suggested_answer || '—'}</span></td>
-              <td><span style="font-family:var(--mono);font-size:11px;color:var(--text2)">${((q.question_images || []).length + (q.answer_images || []).length) || 0}</span></td>
+              <td><button class="btn btn-ghost btn-sm" onclick="editQuestion('${code}', ${q.topic_number || 1}, ${q.question_number})">✏️</button></td>
             </tr>
           `).join('')}
         </tbody>
