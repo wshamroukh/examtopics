@@ -962,7 +962,7 @@ async function editQuestion(examId, topicNumber, questionNumber) {
       {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ suggested_answer: answer })
+        body: JSON.stringify({ suggested_answer: answer, answer: answer })
       }
     );
     const data = await res.json();
