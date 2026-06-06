@@ -1278,6 +1278,7 @@ async function seedFromManifest() {
   btn.disabled = true;
   btn.textContent = '⏳ Seeding...';
   const exams = Array.isArray(manifestData) ? manifestData : [];
+  document.getElementById('seedLog').innerHTML = '';
   logSeed(`Starting seed of ${exams.length} exams from manifest...`);
 
   let success = 0, failed = 0;
@@ -1332,6 +1333,7 @@ async function seedExamQuestions() {
   btn.textContent = '⏳ Seeding...';
 
   const questions = Array.isArray(examFileData) ? examFileData : (examFileData.questions || []);
+  document.getElementById('seedLog').innerHTML = '';
   logSeed(`Seeding ${questions.length} questions for exam "${code}"...`);
 
   // Send as update to existing exam with questions array
